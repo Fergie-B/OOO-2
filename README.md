@@ -1,108 +1,561 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Odd One Out
+(Developer: Barry Ferguson)
 
-Welcome USER_NAME,
+![Mockup image](docs/am-i-responsive.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[Live Webpage] (https://fergie-b.github.io/xxxxx
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of Contents
 
-## Gitpod Reminders
+1. [Project Goals](#project-goals)
+    1. [User Goals](#user-goals)
+    2. [Site Owner Goals](#site-owner-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User Requirements and Expectations](#user-requirements-and-expectations)
+    3. [User Stories](#user-stories)
+3. [Design](#design)
+    1. [Design Choices](#design-choices)
+    2. [Colour](#colours)
+    3. [Fonts](#fonts)
+    4. [Logo](#logo)
+    5. [Structure](#structure)
+    6. [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+    1. [Languages](#languages)
+    2. [Frameworks & Tools](#frameworks-&-tools)
+5. [Features](#features)
+6. [Testing](#validation)
+    1. [HTML Validation](#HTML-validation)
+    2. [CSS Validation](#CSS-validation)
+    3. [JavaScript Validation](#javascript-validation)
+    4. [Accessibility](#accessibility)
+    5. [Performance](#performance)
+    6. [Device and Browser testing](#device-and-browser-testing)
+    7. [Testing user stories](#testing-user-stories)
+8. [Bugs](#Bugs)
+9. [Deployment](#deployment)
+10. [Credits](#credits)
+11. [Acknowledgements](#acknowledgements)
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Project Goals
 
-`python3 -m http.server`
+### User Goals
+- 
+-
+- 
+-
 
-A blue button should appear to click: _Make Public_,
+### Site Owner Goals
+- 
+-
+- 
+- 
 
-Another blue button should appear to click: _Open Browser_.
+## User Experience
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Target Audience
+- 
+- 
+- 
+- 
 
-A blue button should appear to click: _Make Public_,
+### User Requirements and Expectations
+- 
+- 
+- 
+- 
+- 
+- 
 
-Another blue button should appear to click: _Open Browser_.
+### User Stories
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### First-Time User
+#### User:
+1.	As a first-time user of the website,
+2.	As a first-time user of the website, 
+3.	As a first-time user of the website, 
+4.	As a first-time user of the website, 
+5.	As a first-time user of the website, 
+6.	As a first-time user of the website, 
 
-To log into the Heroku toolbelt CLI:
+### Returning User
+#### User:
+7.	As a returning user of the website, 
+8.	As a returning user of the website, 
+9.	As a returning user of the website, 
+10.	As a returning user of the website, 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Site Owner
+#### User:
+11.	
+12.
+13.	
+14.	
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Design
 
-------
+### Design Choices
+...........
 
-## Release History
+### Colours
+The color scheme was chosen on [Coolors.co]() ......... The # Body Text was tested for legibility on the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<details><summary>Apex Gym Colour Scheme</summary>
+<img src="docs/features/color-palette.png">
+</details>
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+### Fonts
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+[](https://fonts.google.com/specimen/) []() 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+<details><summary></summary>
+<img src="docs/features/">
+</details>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+### Logo
+........
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<details><summary>Logo</summary>
+<img src="docs/features/">
+</details>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Structure
+................
+#### Site Pages:
+-
+-
+-
+-
+-
+-
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Wireframes
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<details><summary>Home</summary>
+<img src="docs/wireframes/">
+</details>
+<details><summary></summary>
+<img src="docs/wireframes/">
+</details>
+<details><summary></summary>
+<img src="docs/wireframes/">
+</details>
+<details><summary></summary>
+<img src="docs/wireframes/wireframes">
+</details>
+<details><summary></summary>
+<img src="docs/wireframes/">
+</details>
+<details><summary></summary>
+<img src="docs/wireframes/">
+</details>
+<details><summary></summary>
+<img src="docs/wireframes/">
+</details>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Technologies Used
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Languages
+- HTML5
+- CSS3
+- JS
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Frameworks & Tools
+- [Git](https://git-scm.com/)
+- [Github](https://github.com/)
+- [Gitpod](https://gitpod.io/workspaces)
+- Adobe Photoshop
+- Adobe Illustrator
+- [Balsamiq](https://balsamiq.com/)
+- [Coolors.co](https://coolors.co/)
+- [Google Fonts](https://fonts.google.com/)
+- [Favicon.io](https://favicon.io/)
+- [Font Awesome](https://fontawesome.com/)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
-------
+## Features
+The Main features of the odd One Out website span across ......
 
-## FAQ about the uptime script
+###  Section
+-
+- 
+- 
+- 
+- 
+- User Stories covered: xx
 
-**Why have you added this script?**
+![](docs/features/)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Section
+-
+- User Stories covered: xx
 
-**How will this affect me?**
+![](docs/features/)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### Section
+-
+- User Stories covered: x
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![](docs/features/)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+### Section
+-
+- User Stories covered: xxx
 
-**So….?**
+![](docs/features/)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Section
+- 
 
-**Can I opt out?**
+![](docs/features/)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+### Section
+- 
+- 
+- 
+- User Stories covered: xxxx
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+![](docs/features/)
 
-**Anything more?**
+###  Section
+- 
+- - User Stories covered: xxxx
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+![](docs/features/)
 
----
+### Section
+- 
+- User Stories Covered: xxxx
 
-Happy coding!
+![](docs/features/)
+
+###  Section
+- 
+- User stories covered: xxxx
+
+![](docs/features/)
+
+###  Section
+- 
+- User stories covered: xxxx
+
+![](docs/features/)
+
+### Section
+- 
+- User stories covered: xxxx
+
+![](docs/features/)
+
+### 404 Section
+- 
+- User stories covered: xxxx
+
+![](docs/features/)
+
+### Footer
+- 
+- User Stories covered: xxxx
+
+![](docs/features/)
+
+## Validation
+
+### HTML Validation
+The [W3C Markup Validation Service](https://validator.w3.org/) .......
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary>/summary>
+<img src="docs/validation/">
+</details>
+
+### CSS Validation
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) ......
+<details><summary>Style CSS Success Result</summary>
+<img src="docs/validation/">
+</details>
+<details><summary>Full Page Breakdown</summary>
+<img src="docs/validation/">
+</details>
+  
+ ### JavaScript Validation
+ [JSHint](https://jshint.com/)
+<details><summary>.js</summary>
+<img src="docs/validation/">
+</details>
+<details><summary>.js</summary>
+<img src="docs/validation/">
+</details>
+<details><summary>.js</summary>
+<img src="docs/validation/">
+</details>
+
+### Accessibility
+The site pages where checked using the [Web AIM Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).....
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+
+### Performance Testing
+The Game website was tested in Google Lighthouse to see how it performs.
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary></summary>
+<img src="docs/validation/">
+</details>
+<details><summary>page</summary>
+<img src="docs/validation/">
+</details>
+<details><summary>page</summary>
+<img src="docs/validation/">
+</details>
+<details><summary>page</summary>
+<img src="docs/validation/">
+</details>
+<details><summary>page</summary>
+<img src="docs/validation/">
+</details>
+
+### Device and Browser Testing
+Odd One Out Game Website was tested on the devices and browsers listed:
+- 
+-
+- 
+- 
+
+### Testing User Stories
+
+1. As a first-time user of the website, ......
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+2. As a first-time user of the website, ......
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+3. As a first-time user of the website, ......
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+4. As a first-time user of the website, ......
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+5. As a first-time user of the website, ......
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+6. As a first-time user of the website, ......
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+7. As a returning user of the website, I want to be ........
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+8. As a returning user of the website, I want to be ........
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+9. As a returning user of the website, I want to be ........
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+10. As a returning user of the website, I want to be ........
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+11. As the site owner of the website, I want to be able to .....
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+12. As the site owner of the website, I want to be able to .....
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+13. As the site owner of the website, I want to be able to .....
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+14. As the site owner of the website, I want to be able to .....
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| xxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxx | xxxxxxxxxx |
+| xxxxxxxxxx | xxxxxxxxxx |
+
+## Deployment
+
+I deployed the website on Github pages as per the following instructions:
+1. In your Github Repository click on the Settings link in the tob sub navbar
+2. In the left sidebar click on the Pages link
+3. Select your branch as 'Main' and 'Root'
+4. The Webpage will generate and you will receive a message stating "Your site is published at"
+
+To fork a repository, follow these steps:
+1. Navigate to the chosen repository
+2. Click the Fork Icon on the button in the top right hand corner
+3. Choose an optional name and description for your fork
+4. Choose the desired forking scenario and click ####Create
+
+To Clone a directory
+1. On your Github repository, look at the area above the list of files
+2. Click the Button with the down arrow marked 'Code'
+3. Copy the URL for the repository under one of the three options: HTTPS, SSH or GitHub CLI
+4. Open Git bash
+5. Change the name of the current directory to your chosen location
+6. Type in 'git clone' and paste your copied URL
+7. Hit Enter and create your clone
+
+## Credits
+
+### Media
+In order of Appearance:
+Images used on the site are not the property of the developer unless stated*
+- [](assets/images/)
+- [](assets/images/)
+- [](assets/images/)
+- [](assets/images/)
+- [](assets/images/)
+- [](assets/images/)
+
+### Code
+-
+- 
+- 
+- The 404 Page was built using instructions from [Github](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+## Acknowledgements
