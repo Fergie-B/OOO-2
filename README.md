@@ -40,58 +40,53 @@
 
 ## Project Goals
 
+The Project Goal was to create an engaging, interactive and user-friendly image picking game with bonus questions to score extra points.
+
 ### User Goals
-- 
--
-- 
--
+- To play a game with clear rules
+- Challenge the user to workout which picture contains the Odd One Out
+- To get a high score by answering bonus questions
 
 ### Site Owner Goals
-- 
--
-- 
-- 
+- To create a challenging and entertaining game
+- To create a game with a visually appealing design with clean graphics
+- Provide the user with an easy to use navigation system
+- To create a game website that is fully responsive and passes accesibility guidelines
 
 ## User Experience
 
 ### Target Audience
-- 
-- 
-- 
-- 
+- Adult users who enjoy General Knowledge quizzes
+- Adult users who enjoy imagery based games
 
 ### User Requirements and Expectations
-- 
-- 
-- 
-- 
-- 
-- 
+- Clear game rules
+- An Uncomplicated navigation system
+- Straightforward content presentation
+- A Game website that is fully responsive and that can be accessed on any device
+- Logging of high scores
+- To be able to leave feedback with the developer of the game
 
 ### User Stories
 
-### First-Time User
-#### User:
-1.	As a first-time user of the website,
-2.	As a first-time user of the website, 
-3.	As a first-time user of the website, 
-4.	As a first-time user of the website, 
-5.	As a first-time user of the website, 
-6.	As a first-time user of the website, 
-
-### Returning User
-#### User:
-7.	As a returning user of the website, 
-8.	As a returning user of the website, 
-9.	As a returning user of the website, 
-10.	As a returning user of the website, 
+### Site User
+1.	As a user of the website, I want the rules of the game to be simple and explained easily
+2.	As a user of the website, I want to be able to enter my name for recording a high score
+3.	As a user of the website, I want to be given the option to choose a difficulty level to play the game at
+4.	As a user of the website, I want to presented with General Knowledge questions to test that skill    
+5.	As a user of the website, I want the game to be clickable on desktop and touchscreen on tablet and mobile devices
+6.	As a user of the website, I want to see clear images of the odd one out image at all screen sizes
+7.	As a user of the website, I want to see the correct answer if I get the question wrong
+8.	As a user of the website, I want to see my current score
+9.	As a user of the website, I want to be able to contact the developer of the game to leave feedback
+10.	As a user of the website, I want to know my message has been sent to the developer
 
 ### Site Owner
-#### User:
-11.	
-12.
-13.	
-14.	
+11.	I want the users to enjoy the game experience by it being easy to understand and engage with
+12. I want the game to be challenging to the user
+13.	I want the game to be fully reponsive and work across all devices
+14.	If the user encounters and error on the site I want a 404 page to be available to bring them back to the home page
+15. I want to be able to receive feedback so the game can be improved 
 
 ## Design
 
