@@ -97,12 +97,12 @@ The Project Goal was to create an engaging, interactive and user-friendly image 
 The color scheme was chosen on [Coolors.co](https://coolors.co/faf5da-2b2b2b-b7245c-4d9de0-3bb273) after generation on [Colorsafe.co](http://colorsafe.co/) The #2b2b2b Body Text was also tested for legibility against the Modal background colour #FAF5DA on the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
 
 <details><summary>Odd One Out Colour Scheme</summary>
-<img src="docs/features/color-palette.png">
+<img src="docs/features/features-color-palette.png">
 </details>
 <details><summary>Odd One Out Contrast Testing</summary>
-<img src="docs/features/contrast-testing-1.png">
-<img src="docs/features/contrast-testing-2.png">
-<img src="docs/features/contrast-testing-3.png">
+<img src="docs/features/features-contrast-testing-1.png">
+<img src="docs/features/features-contrast-testing-2.png">
+<img src="docs/features/features-contrast-testing-3.png">
 </details>
 
 ### Fonts
