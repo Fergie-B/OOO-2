@@ -111,11 +111,15 @@ The color scheme was chosen on [Coolors.co](https://coolors.co/faf5da-2b2b2b-428
 
 ### Fonts
 
-[](https://fonts.google.com/specimen/) []() 
+The Google Dsplay Font [Righteous](https://fonts.google.com/specimen/](https://fonts.google.com/specimen/Righteous/tester?category=Display) was chosen for Headings and a Sans Serif Font [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans/tester?category=Sans+Serif) was chosen for smaller body text
 
-<details><summary></summary>
-<img src="docs/features/">
+<details><summary>Righteous</summary>
+<img src="docs/features/features-font-righteous.png">
 </details>
+<details><summary>Noto Sans</summary>
+<img src="docs/features/features-font-noto-sans.png">
+</details>
+
 
 
 ### Logo
