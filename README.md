@@ -129,26 +129,14 @@ The color scheme was chosen on [Coolors.co]() ......... The # Body Text was test
 
 ### Wireframes
 
-<details><summary>Home</summary>
-<img src="docs/wireframes/">
+<details><summary>Laptop & Desktop Screens</summary>
+<img src="docs/wireframes/wireframes-desktop.png">
 </details>
-<details><summary></summary>
-<img src="docs/wireframes/">
+<details><summary>Tablet Screens</summary>
+<img src="docs/wireframes/wireframes-tablet.png">
 </details>
-<details><summary></summary>
-<img src="docs/wireframes/">
-</details>
-<details><summary></summary>
-<img src="docs/wireframes/wireframes">
-</details>
-<details><summary></summary>
-<img src="docs/wireframes/">
-</details>
-<details><summary></summary>
-<img src="docs/wireframes/">
-</details>
-<details><summary></summary>
-<img src="docs/wireframes/">
+<details><summary>Mobile Device Screens</summary>
+<img src="docs/wireframes/wireframes-mobile.png">
 </details>
 
 ## Technologies Used
