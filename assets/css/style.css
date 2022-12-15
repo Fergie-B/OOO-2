@@ -39,3 +39,23 @@ body {
     margin: auto;
     border-radius: 2%;
 }
+
+.logo-main {
+    margin-top: 10%;
+    margin-bottom: 20%;
+}
+
+.user-info {
+    margin-top: 60%;
+}
+
+input, label {
+    font-size: 100%;
+    margin-bottom: 1rem;
+    border-radius: 2%;
+}
+
+.game-input {
+    border: 2px solid var(--light-blue);
+    border-radius: 5px;
+}
