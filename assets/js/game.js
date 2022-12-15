@@ -12,11 +12,13 @@ let mainUserPage = document.getElementById("user-login");
 let seeGameRules = document.getElementById("rules-screen");
 let showGameRules = document.getElementById("game-rules-btn");
 let hideGameRules = document.getElementById("close-btn");
+let errorMessage = document.getElementById("login-error");
 let chooseGameLevel = document.getElementById("game-level");
 /**
  * Function to run the main page with user login
  */
 function runMainPage() {
+    errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
     chooseGameLevel.style.display = "none";
@@ -49,6 +51,7 @@ function checkUserName() {
 
     if (username.length >= 1 && username.length <= 20) {
         chooseGameLevel.style.display = "block";
+        seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
     } else {
         errorMessage.style.display = "block";

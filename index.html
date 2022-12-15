@@ -35,6 +35,10 @@
 
                 <button class="btn btn-primary" id="enter-user">Play Game</button>
 
+                <p class="username-error" id="login-error">
+                    Somethings not right! <br> Is your username between 1 and 20 characters long?
+                </p>
+
             </div>
         </div>
 
@@ -51,6 +55,15 @@
             </div>
         </div>
 
+        <div id="game-level" class="row">
+            <div class="col-md-12">
+                    <h2>Choose your Skill Level</h2>
+
+                    <button class="btn btn-primary" id="easy-btn" onclick="closeGameRules">Easy</button>
+                    <button class="btn btn-primary" id="medium-btn" onclick="closeGameRules">Medium</button>
+                    <button class="btn btn-primary" id="hard-btn" onclick="closeGameRules">Hard</button>
+            </div>
+        </div>
 
     </div>
     <!-- Game Scripts -->
