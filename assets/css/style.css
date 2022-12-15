@@ -41,21 +41,31 @@ body {
 }
 
 .logo-main {
+    position: relative;
     margin-top: 10%;
     margin-bottom: 20%;
+    max-width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 80px;
 }
 
 .user-info {
-    margin-top: 60%;
+    margin-top: 20%;
 }
 
 input, label {
     font-size: 100%;
     margin-bottom: 1rem;
-    border-radius: 2%;
+    border-radius: 5px;
 }
 
 .game-input {
     border: 2px solid var(--light-blue);
     border-radius: 5px;
+}
+
+.btn {
+    display: inline-flex;
+    background-color: var(--light-blue);
 }
