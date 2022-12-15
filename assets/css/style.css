@@ -10,3 +10,15 @@
     --green: #2c7a2a;
     --red: #c44536;
 }
+
+/* CSS Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+}
