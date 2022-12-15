@@ -111,7 +111,7 @@ The color scheme was chosen on [Coolors.co](https://coolors.co/faf5da-2b2b2b-428
 
 ### Fonts
 
-The Google Dsplay Font [Righteous](https://fonts.google.com/specimen/](https://fonts.google.com/specimen/Righteous/tester?category=Display) was chosen for Headings and a Sans Serif Font [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans/tester?category=Sans+Serif) was chosen for smaller body text
+The Google Display Font [Righteous](https://fonts.google.com/specimen/](https://fonts.google.com/specimen/Righteous/tester?category=Display) was chosen for Headings and a Sans Serif Font [Noto Sans](https://fonts.google.com/noto/specimen/Noto+Sans/tester?category=Sans+Serif) was chosen for smaller body text
 
 <details><summary>Righteous</summary>
 <img src="docs/features/features-font-righteous.png">
@@ -130,14 +130,19 @@ The Google Dsplay Font [Righteous](https://fonts.google.com/specimen/](https://f
 </details>
 
 ### Structure
-................
-#### Site Pages:
--
--
--
--
--
--
+The Game Website was designed with user friendliness in mind, it should be easy to use once the user has read the rules. Every screen should be easy to read
+and navigate.
+#### Site Screens/Pages:
+- A Home Page with links to start the game and to browse the rules.
+- A screen where the user picks the difficulty level they want to play at.
+- A Main Game screen where the user has to figure out a multiple choice question from a series of four photos
+- A Correct message screen where the user has the option to answer a bonus question
+- A Bonus Question Screen which offers the user a multiple choice question picked via checkboxes
+- A Incorrect screen which offers the user the choice to move to the next question
+- A Incorrect Bonus Question screen which offers the user the choice to move to the next question
+- A Final Score screen that displays the Users final score and offers the choice to play again
+- A Contaact Form Screen that allows the User to contact the developer of the game
+- A 404 Screen that offers a link to bring the user back to the Home Page/Start Screen
 
 
 ### Wireframes
