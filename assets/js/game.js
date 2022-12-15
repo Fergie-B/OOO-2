@@ -14,10 +14,14 @@ let showGameRules = document.getElementById("game-rules-btn");
 let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
 let chooseGameLevel = document.getElementById("game-level");
+let questionTypeOne = document.getElementById("game-screen-one");
+let questionTypeTwo = document.getElementById("game-screen-two");
 /**
  * Function to run the main page with user login
  */
 function runMainPage() {
+    questionTypeOne.style.display = "none";
+    questionTypeTwo.style.display = "none";
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
