@@ -133,7 +133,7 @@ The Google Display Font [Righteous](https://fonts.google.com/specimen/](https://
 The Game Website was designed with user friendliness in mind, it should be easy to use once the user has read the rules. Every screen should be easy to read
 and navigate.
 #### Site Screens/Pages:
-- A Home Page with links to start the game and to browse the rules.
+- A Home Page with links to start the game and to browse the rules and a Text input to enter a chose username.
 - A screen where the user picks the difficulty level they want to play at.
 - A Main Game screen where the user has to figure out a multiple choice question from a series of four photos
 - A Correct message screen where the user has the option to answer a bonus question
