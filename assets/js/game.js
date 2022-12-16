@@ -64,3 +64,17 @@ function checkUserName() {
     }
 }
 checkUserName();
+
+/**
+ * Code to Select the Users desired skill level
+ */
+function chooseSkillLevel() {
+    document.getElementById("skill-buttons").addEventListener("click", function (event) {
+        if (!event.target.className.includes("skill-button")) return;
+        let button = event.target;
+        let skillLevel = button.getAttribute("data-type");
+        setSkill(skillLevel);
+    });
+}
+chooseSkillLevel();
+console.log(chooseSkillLevel);

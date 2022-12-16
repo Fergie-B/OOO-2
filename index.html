@@ -41,7 +41,7 @@
 
             </div>
         </div>
-
+        <!-- Rules Screen -->  
         <div id="rules-screen" class="row">
             <div class="col-md-12 rules-box">
                     <h2 class="game-titles">Game Rules</h2>
@@ -53,25 +53,26 @@
                     <button class="btn btn-primary" id="close-btn" onclick="closeGameRules">Close</button>
             </div>
         </div>
-
+        <!-- Game Level Screen -->  
         <div id="game-level" class="row">
-            <div class="col-md-12">
+            <div class="col-md-12" id="skill-buttons">
                     <h2 class="game-titles">Choose your Skill Level</h2>
 
-                    <button class="btn btn-primary skill-button" id="easy-btn" onclick="closeGameRules">Easy</button>
-                    <button class="btn btn-primary skill-button" id="medium-btn" onclick="closeGameRules">Medium</button>
-                    <button class="btn btn-primary skill-button" id="hard-btn" onclick="closeGameRules">Hard</button>
+                    <button data-type="easy" class="btn btn-primary skill-button">Easy</button>
+                    <button data-type="medium" class="btn btn-primary skill-button">Medium</button>
+                    <button data-type="hard" class="btn btn-primary skill-button">Hard</button>
             </div>
         </div>
 
         <div id="game-screen-one" class="row">
             <div class="col-md-12">
                     <h2 class="game-titles">Name - Score</h2>
+                    <p>Which is the Odd One Out?</p>
                     <div class="quiz-images">
-                        <img src="" alt="" sizes="" srcset="">
-                        <img src="" alt="" sizes="" srcset="">
-                        <img src="" alt="" sizes="" srcset="">
-                        <img src="" alt="" sizes="" srcset="">
+                        <button id="btn0"><span id="choice-0"></span></button>
+                        <button id="btn1"><span id="choice-1"></span></button>
+                        <button id="btn2"><span id="choice-2"></span></button>
+                        <button id="btn3"><span id="choice-3"></span></button>
                     </div>
 
                     <p id="answer"></p>
