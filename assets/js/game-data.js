@@ -97,4 +97,24 @@ let bonusQuestion = [{
             answer4: "The Botany Bridge"
         },
         correctAnswer: "answer1"
+},
+    actors: {
+        question: "What superhero did Robert Downey Jr play?",
+        answers: {
+            answer1: "Captain America",
+            answer2: "Green Arrow",
+            answer3: "Iron Man",
+            answer4: "Spider Man"
+        },
+        correctAnswer: "answer3"
+ },
+    food: {
+        question: "How many varieties of banana are there in the world?",
+        answers: {
+            answer1: "Over 500",
+            answer2: "Over 1000",
+            answer3: "Over 5000",
+            answer4: "Over 10,000"
+        },
+        correctAnswer: "answer2"
 }]
