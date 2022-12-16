@@ -35,24 +35,24 @@ let imageChoices = {
         'assets/images/5-actors-question/robert-pattinson.jpg',
     ],
 
-    bond [
-        'assets/images/1-bond-question/daniel-craig.jpg',
-        'assets/images/1-bond-question/david-niven.jpg',
-        'assets/images/1-bond-question/george-lazenby.jpg',
-        'assets/images/1-bond-question/roger-moore.jpg',
+    food [
+        'assets/images/6-food-question/banana.jpg',
+        'assets/images/6-food-question/carrot.jpg',
+        'assets/images/6-food-question/potato.jpg',
+        'assets/images/6-food-question/turnip.jpg',
     ],
 
-    bond [
-        'assets/images/1-bond-question/daniel-craig.jpg',
-        'assets/images/1-bond-question/david-niven.jpg',
-        'assets/images/1-bond-question/george-lazenby.jpg',
-        'assets/images/1-bond-question/roger-moore.jpg',
+    celebrities [
+        'assets/images/7-celebrities-question/axl-rose.jpg',
+        'assets/images/7-celebrities-question/chris-pratt.jpg',
+        'assets/images/7-celebrities-question/gwyneth-paltrow.jpg',
+        'assets/images/7-celebrities-question/vince-vaughn.jpg',
     ],
 
-    bond [
-        'assets/images/1-bond-question/daniel-craig.jpg',
-        'assets/images/1-bond-question/david-niven.jpg',
-        'assets/images/1-bond-question/george-lazenby.jpg',
-        'assets/images/1-bond-question/roger-moore.jpg',
+    music [
+        'assets/images/8-music-question/britney-spears.jpg',
+        'assets/images/8-music-question/christina-aguilera.jpg',
+        'assets/images/8-music-question/dua-lipa.jpg',
+        'assets/images/8-music-question/tina-turner.jpg',
     ],
 }
