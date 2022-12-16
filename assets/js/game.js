@@ -54,9 +54,10 @@ function checkUserName() {
     let username = document.getElementById("player").value.trim();
 
     if (username.length >= 1 && username.length <= 20) {
-        chooseGameLevel.style.display = "block";
+        questionTypeOne.style.display = "block";
         seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
+        document.getElementById("bonus-btn").style.display = "none";
     } else {
         errorMessage.style.display = "block";
         document.getElementById("player").focus();
