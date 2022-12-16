@@ -117,4 +117,24 @@ let bonusQuestion = [{
             answer4: "Over 10,000"
         },
         correctAnswer: "answer2"
-}]
+ },
+    celebrities: {
+        question: "In which US city did the band Guns N Roses form?",
+        answers: {
+            answer1: "Seattle",
+            answer2: "Los Angeles",
+            answer3: "Dallas",
+            answer4: "New York"
+        },
+        correctAnswer: "answer2"
+},
+    music: {
+        question: "What is the name of Dua Lipa's first album?",
+        answers: {
+            answer1: "Past Retro",
+            answer2: "Future Nostalgia",
+            answer3: "The One",
+            answer4: "Dua Lipa"
+        },
+        correctAnswer: "answer4"
+}],
