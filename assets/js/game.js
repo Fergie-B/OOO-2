@@ -46,7 +46,7 @@ function closeGameRules() {
 }
 
 /**
- * Code to verify the User Inputs correct username length on log-in screen
+ * Code to verify the User Inputs correct username length on log-in screen and loads game screen one
  */
 document.getElementById("enter-user").addEventListener("click" , checkUserName);
 
