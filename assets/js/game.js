@@ -6,6 +6,13 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 /**
+ * Import Image and Questions array from game-date.js
+ */
+import {imageChoices} from "./game-data.js";
+
+import {bonusQuestion} from "./game-data.js";
+
+/**
  * Setting up Quiz variables to show/hide divs
  */
 let mainUserPage = document.getElementById("user-login");
@@ -13,7 +20,6 @@ let seeGameRules = document.getElementById("rules-screen");
 let showGameRules = document.getElementById("game-rules-btn");
 let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
-let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
 let questionTypeTwo = document.getElementById("game-screen-two");
 /**
@@ -25,7 +31,6 @@ function runMainPage() {
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
-    chooseGameLevel.style.display = "none";
 }
 
 /**
@@ -65,4 +70,5 @@ function checkUserName() {
     }
 }
 checkUserName();
+
 
