@@ -5,12 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     runMainPage();
 });
 
-/**
- * Import Image and Questions array from game-date.js
- */
-import {imageChoices} from "./game-data.js";
 
-import {bonusQuestion} from "./game-data.js";
 
 /**
  * Setting up Quiz variables to show/hide divs

@@ -62,7 +62,7 @@ export const imageChoices = [{
  * Array of Bonus questions to export to game.js
  */
 export const bonusQuestion = [{
-    bond: {
+     
         question: "Which actor did George Lazenby replace in the James Bond role?",
         answers: {
             answer1: "Roger Moore",
@@ -70,9 +70,9 @@ export const bonusQuestion = [{
             answer3: "Sean Connery",
             answer4: "Daniel Craig"
         },
-        correctAnswer: "answer3"
+        correctAnswer: "answer3",
 },
-    flags: {
+     {
         question: "Which city in Morrocco has the highest population?",
         answers: {
             answer1: "Tangier",
@@ -82,7 +82,7 @@ export const bonusQuestion = [{
         },
         correctAnswer: "answer2"
  },
-    brands: {
+     {
         question: "What US State was Burger King founded in?",
         answers: {
             answer1: "Delaware",
@@ -92,7 +92,7 @@ export const bonusQuestion = [{
         },
         correctAnswer: "answer4"
 },
-    cities: {
+     {
         question: "What is the nickname of the Sydney Harbour Bridge?",
         answers: {
             answer1: "The Coathanger",
@@ -102,7 +102,7 @@ export const bonusQuestion = [{
         },
         correctAnswer: "answer1"
 },
-    actors: {
+     {
         question: "What superhero did Robert Downey Jr play?",
         answers: {
             answer1: "Captain America",
@@ -112,7 +112,7 @@ export const bonusQuestion = [{
         },
         correctAnswer: "answer3"
  },
-    food: {
+     {
         question: "How many varieties of banana are there in the world?",
         answers: {
             answer1: "Over 500",
@@ -122,17 +122,17 @@ export const bonusQuestion = [{
         },
         correctAnswer: "answer2"
  },
-    celebrities: {
+     {
         question: "In which US city did the band Guns N Roses form?",
         answers: {
             answer1: "Seattle",
             answer2: "Los Angeles",
             answer3: "Dallas",
-            answer4: "New York"
+            answer4: "New York",
         },
-        correctAnswer: "answer2"
+        correctAnswer: "answer2",
 },
-    music: {
+     {
         question: "What is the name of Dua Lipa's first album?",
         answers: {
             answer1: "Past Retro",
