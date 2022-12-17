@@ -41,6 +41,16 @@
 
             </div>
         </div>
+         <!-- Game Level Screen -->  
+         <div id="game-level" class="row">
+            <div class="col-md-12" id="skill-buttons">
+                    <h2 class="game-titles">Choose your Skill Level</h2>
+
+                    <button data-type="easy" class="btn btn-primary skill-button">Easy</button>
+                    <button data-type="medium" class="btn btn-primary skill-button">Medium</button>
+                    <button data-type="hard" class="btn btn-primary skill-button">Hard</button>
+            </div>
+        </div>
         <!-- Rules Screen -->  
         <div id="rules-screen" class="row">
             <div class="col-md-12 rules-box">
@@ -60,10 +70,10 @@
                     <p id="score"></p>
                     <p>Which is the Odd One Out?</p>
                     <div class="quiz-images">
-                        <button id="btn0"><span id="choice0"></span></button>
-                        <button id="btn1"><span id="choice1"></span></button>
-                        <button id="btn2"><span id="choice2"></span></button>
-                        <button id="btn3"><span id="choice3"></span></button>
+                        <button id="btn0 btn-grid"><span id="choice0"></span></button>
+                        <button id="btn1 btn-grid"><span id="choice1"></span></button>
+                        <button id="btn2 btn-grid"><span id="choice2"></span></button>
+                        <button id="btn3 btn-grid"><span id="choice3"></span></button>
                     </div>
 
                     <p id="answer"></p>
@@ -89,9 +99,10 @@
 
     </div>
     <!-- Game Scripts -->
+    <script src="assets/js/game-data.js"></script>
     <script src="assets/js/game.js"></script>
 
-    <script src="assets/js/game-data.js"></script>
+    
 
          <!-- Link to Bootstrap V5.0 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>

@@ -5,8 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
     runMainPage();
 });
 
-
-
 /**
  * Setting up Quiz variables to show/hide divs
  */
@@ -15,6 +13,7 @@ let seeGameRules = document.getElementById("rules-screen");
 let showGameRules = document.getElementById("game-rules-btn");
 let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
+let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
 let questionTypeTwo = document.getElementById("game-screen-two");
 /**
@@ -26,6 +25,7 @@ function runMainPage() {
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
+    chooseGameLevel.style.display = "none";
 }
 
 /**
@@ -46,7 +46,7 @@ function closeGameRules() {
 }
 
 /**
- * Code to verify the User Inputs correct username length on log-in screen and loads game screen one
+ * Code to verify the User Inputs correct username length on log-in screen
  */
 document.getElementById("enter-user").addEventListener("click" , checkUserName);
 
@@ -54,10 +54,9 @@ function checkUserName() {
     let username = document.getElementById("player").value.trim();
 
     if (username.length >= 1 && username.length <= 20) {
-        questionTypeOne.style.display = "block";
+        chooseGameLevel.style.display = "block";
         seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
-        document.getElementById("bonus-btn").style.display = "none";
     } else {
         errorMessage.style.display = "block";
         document.getElementById("player").focus();
@@ -66,4 +65,16 @@ function checkUserName() {
 }
 checkUserName();
 
-
+/**
+ * Code to Select the Users desired skill level
+ */
+function chooseSkillLevel() {
+    document.getElementById("skill-buttons").addEventListener("click", function (event) {
+        if (!event.target.className.includes("skill-button")) return;
+        let button = event.target;
+        let skillLevel = button.getAttribute("data-type");
+        setSkill(skillLevel);
+    });
+}
+chooseSkillLevel();
+console.log(chooseSkillLevel);
