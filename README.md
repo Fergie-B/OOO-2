@@ -1,4 +1,4 @@
-# Odd One Out
+# Odd One Out - Project is unfinshed - discussed with Student Care 21/12/2022
 (Developer: Barry Ferguson)
 
 ![Mockup image](docs/am-i-responsive.png)
