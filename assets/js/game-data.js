@@ -72,7 +72,7 @@ export const imageChoices = [{
 
     music: [{
         question: "Which of these singers is the Odd One Out?",
-        choice1 'assets/images/8-music-question/britney-spears.jpg',
+        choice1: 'assets/images/8-music-question/britney-spears.jpg',
         choice2: 'assets/images/8-music-question/christina-aguilera.jpg',
         choice3: 'assets/images/8-music-question/dua-lipa.jpg',
         choice4: 'assets/images/8-music-question/tina-turner.jpg',
@@ -86,84 +86,68 @@ export const imageChoices = [{
  * Array of Bonus questions to export to game.js
  */
 export const bonusQuestion = [{
-     
+     bond: [{
         question: "Which actor did George Lazenby replace in the James Bond role?",
-        answers: {
-            answer1: "Roger Moore",
-            answer2: "Timothy Dalton",
-            answer3: "Sean Connery",
-            answer4: "Daniel Craig"
-        },
-        correctAnswer: "answer3",
-},
-     {
+        answer1: "Roger Moore",
+        answer2: "Timothy Dalton",
+        answer3: "Sean Connery",
+        answer4: "Daniel Craig",
+        correctAnswer: 3
+    }],
+    flags: [{
         question: "Which city in Morrocco has the highest population?",
-        answers: {
-            answer1: "Tangier",
-            answer2: "Casablanca",
-            answer3: "Fez",
-            answer4: "Marrakesh"
-        },
-        correctAnswer: "answer2"
- },
-     {
+        answer1: "Tangier",
+        answer2: "Casablanca",
+        answer3: "Fez",
+        answer4: "Marrakesh",
+        correctAnswer: 2
+    }],
+    brands: [{
         question: "What US State was Burger King founded in?",
-        answers: {
-            answer1: "Delaware",
-            answer2: "California",
-            answer3: "Alabama",
-            answer4: "Florida"
-        },
-        correctAnswer: "answer4"
-},
-     {
+        answer1: "Delaware",
+        answer2: "California",
+        answer3: "Alabama",
+        answer4: "Florida",
+        correctAnswer: 4
+    }],
+    cities: [{
         question: "What is the nickname of the Sydney Harbour Bridge?",
-        answers: {
-            answer1: "The Coathanger",
-            answer2: "The Bay Bridge",
-            answer3: "The Swans Neck",
-            answer4: "The Botany Bridge"
-        },
-        correctAnswer: "answer1"
-},
-     {
+        answer1: "The Coathanger",
+        answer2: "The Bay Bridge",
+        answer3: "The Swans Neck",
+        answer4: "The Botany Bridge",
+        correctAnswer: 1
+    }],
+    actors: [{
         question: "What superhero did Robert Downey Jr play?",
-        answers: {
-            answer1: "Captain America",
-            answer2: "Green Arrow",
-            answer3: "Iron Man",
-            answer4: "Spider Man"
-        },
-        correctAnswer: "answer3"
- },
-     {
+        answer1: "Captain America",
+        answer2: "Green Arrow",
+        answer3: "Iron Man",
+        answer4: "Spider Man",
+        correctAnswer: 3
+    }],
+    food: [{
         question: "How many varieties of banana are there in the world?",
-        answers: {
-            answer1: "Over 500",
-            answer2: "Over 1000",
-            answer3: "Over 5000",
-            answer4: "Over 10,000"
-        },
-        correctAnswer: "answer2"
- },
-     {
+        answer1: "Over 500",
+        answer2: "Over 1000",
+        answer3: "Over 5000",
+        answer4: "Over 10,000",
+        correctAnswer: 2
+    }],
+    celebrities: [{
         question: "In which US city did the band Guns N Roses form?",
-        answers: {
-            answer1: "Seattle",
-            answer2: "Los Angeles",
-            answer3: "Dallas",
-            answer4: "New York",
-        },
-        correctAnswer: "answer2",
-},
-     {
+        answer1: "Seattle",
+        answer2: "Los Angeles",
+        answer3: "Dallas",
+        answer4: "New York",
+        correctAnswer: 2
+    }],
+    music: [{
         question: "What is the name of Dua Lipa's first album?",
-        answers: {
-            answer1: "Past Retro",
-            answer2: "Future Nostalgia",
-            answer3: "The One",
-            answer4: "Dua Lipa"
-        },
-        correctAnswer: "answer4"
-}
-];
+        answer1: "Past Retro",
+        answer2: "Future Nostalgia",
+        answer3: "The One",
+        answer4: "Dua Lipa",
+        correctAnswer: 4
+    }],
+}];
