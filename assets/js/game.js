@@ -13,7 +13,7 @@ let seeGameRules = document.getElementById("rules-screen");
 let showGameRules = document.getElementById("game-rules-btn");
 let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
-let chooseGameLevel = document.getElementById("game-level");
+// let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
 let questionTypeTwo = document.getElementById("game-screen-two");
 /**
@@ -25,7 +25,7 @@ function runMainPage() {
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
-    chooseGameLevel.style.display = "none";
+//   chooseGameLevel.style.display = "none";
 }
 
 /**
@@ -46,7 +46,7 @@ function closeGameRules() {
 }
 
 /**
- * Code to verify the User Inputs correct username length on log-in screen
+ * Code to verify the User Inputs correct username length on log-in screen and load Game Screen Type One
  */
 document.getElementById("enter-user").addEventListener("click" , checkUserName);
 
@@ -54,7 +54,7 @@ function checkUserName() {
     let username = document.getElementById("player").value.trim();
 
     if (username.length >= 1 && username.length <= 20) {
-        chooseGameLevel.style.display = "block";
+        questionTypeOne.style.display = "block";
         seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
     } else {
