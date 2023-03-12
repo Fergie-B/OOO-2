@@ -1,18 +1,22 @@
 // Image and Questions array to export to game.js
 export const imageChoices = [{
-    bond: [
-        'assets/images/1-bond-question/daniel-craig.jpg',
-        'assets/images/1-bond-question/david-niven.jpg',
-        'assets/images/1-bond-question/george-lazenby.jpg',
-        'assets/images/1-bond-question/roger-moore.jpg',
-    ],
+    bond: [{
+        question: "Who is the odd one out of these actors who played James Bond?",
+        choice1: 'assets/images/1-bond-question/daniel-craig.jpg',
+        choice2: 'assets/images/1-bond-question/david-niven.jpg',
+        choice3: 'assets/images/1-bond-question/george-lazenby.jpg',
+        choice4: 'assets/images/1-bond-question/roger-moore.jpg',
+        correctAnswer: 3
+    }]
 
-    flags: [
-        'assets/images/2-flags-question/finland.jpg',
-        'assets/images/2-flags-question/germany.jpg',
-        'assets/images/2-flags-question/iceland.jpg',
-        'assets/images/2-flags-question/morocco.jpg',
-    ],
+    flags: [{
+        question: "Which of these Countries flags is the odd one out?",
+        choice1: 'assets/images/2-flags-question/finland.jpg',
+        choice2: 'assets/images/2-flags-question/germany.jpg',
+        choice3: 'assets/images/2-flags-question/iceland.jpg',
+        choice4: 'assets/images/2-flags-question/morocco.jpg',
+        correctAnswer: 4
+    }],
 
     brands: [
         'assets/images/3-brands-question/burger-king.jpg',
