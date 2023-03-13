@@ -5,6 +5,10 @@ document.addEventListener('DOMContentLoaded', function () {
     runMainPage();
 });
 
+const question = document.getElementById("question");
+const choices = Array.from(document.getElementsByClassName("img-choice"));
+console.log(choices);
+
 /**
  * Setting up Quiz variables to show/hide divs
  */
