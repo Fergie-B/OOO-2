@@ -84,7 +84,13 @@ checkUserName();
 function startGame() {
     questions = imageChoices;
     availableQuestions = [...questions];
-    // console.log(availableQuestions);
+    console.log(availableQuestions);
+    getNewQuestion();
+}
+startGame();
+
+function getNewQuestion() {
+    
 }
 
 /**

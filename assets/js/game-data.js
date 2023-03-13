@@ -1,6 +1,6 @@
 // Image and Questions array to export to game.js
-const imageChoices = [{
-    bond: [{
+const imageChoices = [
+    {
         question: "Who is the Odd One Out of these actors who played James Bond?",
         choice1: 'assets/images/1-bond-question/daniel-craig.jpg',
         choice2: 'assets/images/1-bond-question/david-niven.jpg',
@@ -8,9 +8,8 @@ const imageChoices = [{
         choice4: 'assets/images/1-bond-question/roger-moore.jpg',
         correctAnswer: 3,
         answerReason: "George Lazenby was from Australia, all the other Bonds from England!"
-    }],
-
-    flags: [{
+    },
+    {
         question: "Which of these Countries flags is the Odd One Out?",
         choice1: 'assets/images/2-flags-question/finland.jpg',
         choice2: 'assets/images/2-flags-question/germany.jpg',
@@ -18,9 +17,8 @@ const imageChoices = [{
         choice4: 'assets/images/2-flags-question/morocco.jpg',
         correctAnswer: 4,
         answerReason: "Morocco is the odd one out as it is in Africa, the other countries are all European!"
-    }],
-
-    brands: [{
+    },
+    {
         question: "Which of these popular brands is the Odd One Out?",
         choice1: 'assets/images/3-brands-question/burger-king.jpg',
         choice2: 'assets/images/3-brands-question/facebook.jpg',
@@ -28,9 +26,8 @@ const imageChoices = [{
         choice4: 'assets/images/3-brands-question/twitter.jpg',
         correctAnswer: 1,
         answerReason: "Burger King is a fast food brand, Facebook, Twitter and Instagram are Social Media Brands!"
-    }],
-
-    cities: [{
+    },
+    {
         question: "Which  is the Odd One Out of the Major cities?",
         choice1: 'assets/images/4-cities-question/london.jpg',
         choice2: 'assets/images/4-cities-question/new-york.jpg',
@@ -38,9 +35,8 @@ const imageChoices = [{
         choice4:  'assets/images/4-cities-question/sydney.jpg',
         correctAnswer: 4,
         answerReason: ""
-    }],
-
-    actors: [{
+    },
+    {
         question: "Who  is the Odd One Out of these Hollywood actors?",
         choice1: 'assets/images/5-actors-question/christian-bale.jpg',
         choice2: 'assets/images/5-actors-question/michael-keaton.jpg',
@@ -48,9 +44,8 @@ const imageChoices = [{
         choice4: 'assets/images/5-actors-question/robert-pattinson.jpg',
         correctAnswer: 3,
         answerReason: "Robert Downey Jr is the odd one out as he has never played Batman!"
-    }],
-
-    food: [{
+    },
+    {
         question: "Which of the below foods is the Odd One Out?",
         choice1: 'assets/images/6-food-question/banana.jpg',
         choice2: 'assets/images/6-food-question/carrot.jpg',
@@ -58,19 +53,17 @@ const imageChoices = [{
         choice4: 'assets/images/6-food-question/turnip.jpg',
         correctAnswer: 1,
         answerReason: "Banana is the only fruit, the rest are all vegetables!"
-    }],
-
-    celebrities: [{
-        question: "Who is the Odd One out of the celebrities?",
+    },
+    {
+        question: "Who is the Odd One out of these celebrities?",
         choice1: 'assets/images/7-celebrities-question/axl-rose.jpg',
         choice2: 'assets/images/7-celebrities-question/chris-pratt.jpg',
         choice3: 'assets/images/7-celebrities-question/gwyneth-paltrow.jpg',
         choice4: 'assets/images/7-celebrities-question/vince-vaughn.jpg',
         correctAnswer: 1,
         answerReason: "Axl Rose is a singer, the rest are actors or actresses."
-    }],
-
-    music: [{
+    },
+    {
         question: "Which of these singers is the Odd One Out?",
         choice1: 'assets/images/8-music-question/britney-spears.jpg',
         choice2: 'assets/images/8-music-question/christina-aguilera.jpg',
@@ -78,9 +71,8 @@ const imageChoices = [{
         choice4: 'assets/images/8-music-question/tina-turner.jpg',
         correctAnswer: 3,
         answerReason: "Dua Lipa is from England the rest are American singers."
-    }],
-
-}];
+    },
+];
 
 /**
  * Array of Bonus questions to export to game.js
