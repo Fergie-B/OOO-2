@@ -1,5 +1,5 @@
 // Image and Questions array to export to game.js
-export const imageChoices = [{
+const imageChoices = [{
     bond: [{
         question: "Who is the Odd One Out of these actors who played James Bond?",
         choice1: 'assets/images/1-bond-question/daniel-craig.jpg',
@@ -85,7 +85,7 @@ export const imageChoices = [{
 /**
  * Array of Bonus questions to export to game.js
  */
-export const bonusQuestion = [{
+const bonusQuestion = [{
      bond: [{
         question: "Which actor did George Lazenby replace in the James Bond role?",
         answer1: "Roger Moore",
