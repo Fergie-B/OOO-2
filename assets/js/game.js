@@ -84,14 +84,18 @@ checkUserName();
 function startGame() {
     questions = imageChoices;
     availableQuestions = [...questions];
-    console.log(availableQuestions);
+    // console.log(availableQuestions);
     getNewQuestion();
 }
 startGame();
 
 function getNewQuestion() {
-    
-}
+    const questionIndex = Math.floor(Math.random() * availableQuestions.length);
+    currentQuestion = availableQuestions[questionIndex];
+    question.innerText = currentQuestion.question;
+    choices.innerHTML 
+
+};
 
 /**
  * Code to Select the Users desired skill level
