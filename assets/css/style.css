@@ -99,7 +99,7 @@ input, label {
 }
 
 /* Game Screen One Styling */
-.img-button {
+.img-choice {
     border: 2px solid var(--light-blue);
     border-radius: 5px;
     min-width: 200px;
