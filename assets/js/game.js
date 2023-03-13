@@ -5,9 +5,18 @@ document.addEventListener('DOMContentLoaded', function () {
     runMainPage();
 });
 
+/**
+ * Setting up Const variables to query the Dom
+ */
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("img-choice"));
-console.log(choices);
+// console.log(choices);
+
+let currentQuestion = {};
+let score = 0;
+let availableQuestions = [];
+
+let questions = [];
 
 /**
  * Setting up Quiz variables to show/hide divs
@@ -63,6 +72,7 @@ function checkUserName() {
         mainUserPage.style.display = "none";
         document.getElementById("next-btn").style.display = "none";
         document.getElementById("bonus-btn").style.display = "none";
+        startGame();
     } else {
         errorMessage.style.display = "block";
         document.getElementById("player").focus();
@@ -70,6 +80,12 @@ function checkUserName() {
     }
 }
 checkUserName();
+
+function startGame() {
+    questions = imageChoices;
+    availableQuestions = [...questions];
+    // console.log(availableQuestions);
+}
 
 /**
  * Code to Select the Users desired skill level
