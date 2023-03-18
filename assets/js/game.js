@@ -29,6 +29,7 @@ let errorMessage = document.getElementById("login-error");
 // let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
 let questionTypeTwo = document.getElementById("game-screen-two");
+let contactFormOne = document.getElementById("contact-form");
 /**
  * Function to run the main page with user login
  */
@@ -38,6 +39,7 @@ function runMainPage() {
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
+    contactFormOne.style.display = "none";
 //   chooseGameLevel.style.display = "none";
 }
 
