@@ -99,9 +99,23 @@ input, label {
 }
 
 /* Game Screen One Styling */
-.img-choice {
+.question-choice {
+    position: relative;
+    padding: 20px 0 0 0;
+    margin-bottom: .4rem;
+    margin: auto;
     border: 2px solid var(--light-blue);
     border-radius: 5px;
-    width: fit-content;
-    height: fit-content;
+    width: 60%;
+    height: 60%;
+}
+
+.choice-prefix {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.choice-text {
+    display: inline-block;
+    vertical-align: middle;
 }

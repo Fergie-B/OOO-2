@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
  * Setting up Const variables to query the Dom
  */
 const question = document.getElementById("question");
-const choices = Array.from(document.getElementsByClassName("img-choice"));
+const choices = Array.from(document.getElementsByClassName("choice-text"));
 // console.log(choices);
 
 let currentQuestion = {};
