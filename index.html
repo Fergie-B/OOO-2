@@ -15,105 +15,114 @@
     <title>Odd One Out Quiz Game</title>
 </head>
 <body>
+    <div class="wrapper">
     <!-- Container for Main Game Area -->
-     <div id="game-container">
-        <div class="row">
-            <div class="col-md-12">
-                <!-- Div for Large Logo -->
-                <div class="logo-main">
-                    <img src="assets/images/main-logo.svg" alt="Main Large Logo for Three Screens of Game">
+        <div id="game-container">
+            <div class="row">
+                <div class="col-md-12">
+                    <!-- Div for Large Logo -->
+                    <div class="logo-main">
+                        <img src="assets/images/main-logo.svg" alt="Main Large Logo for Three Screens of Game">
+                    </div>
+                </div>
+                <!-- User Login and Game buttons -->  
+                <div id="user-login" class="user-info col-md-12">
+                        <label for="username">Hello, please enter your name!</label>
+                        <br>
+                        <input type="text" id="player" class="game-input" name="player" maxlength="20">
+                
+
+                    <button class="btn btn-primary" id="game-rules-btn" onclick="viewGameRules">Game Rules</button>
+
+                    <button class="btn btn-primary" id="enter-user">Play Game</button>
+
+                    <p class="username-error" id="login-error">
+                        Somethings not right! <br> Is your username between 1 and 20 characters long?
+                    </p>
+
                 </div>
             </div>
-            <!-- User Login and Game buttons -->  
-            <div id="user-login" class="user-info col-md-12">
-                    <label for="username">Hello, please enter your name!</label>
-                    <br>
-                    <input type="text" id="player" class="game-input" name="player" maxlength="20">
-            
+            <!-- Game Level Screen -->  
+            <!-- <div id="game-level" class="row">
+                <div class="col-md-12" id="skill-buttons">
+                        <h2 class="game-titles">Choose your Skill Level</h2>
 
-                <button class="btn btn-primary" id="game-rules-btn" onclick="viewGameRules">Game Rules</button>
-
-                <button class="btn btn-primary" id="enter-user">Play Game</button>
-
-                <p class="username-error" id="login-error">
-                    Somethings not right! <br> Is your username between 1 and 20 characters long?
-                </p>
-
+                        <button data-type="easy" class="btn btn-primary skill-button">Easy</button>
+                        <button data-type="medium" class="btn btn-primary skill-button">Medium</button>
+                        <button data-type="hard" class="btn btn-primary skill-button">Hard</button>
+                </div>
+            </div> -->
+            <!-- Rules Screen -->  
+            <div id="rules-screen" class="row">
+                <div class="col-md-12 rules-box">
+                        <h2 class="game-titles">Game Rules</h2>
+                        <p>Guess the odd one out of a group of photos.</p>
+                        <p>Guessing the correct answer gets a bonus question.</p>
+                        <p>Play to get the Highest Score.</p>
+                        <p>What are you waiting for? Get Picking?</p>
+                
+                        <button class="btn btn-primary" id="close-btn" onclick="closeGameRules">Close</button>
+                </div>
             </div>
-        </div>
-         <!-- Game Level Screen -->  
-         <!-- <div id="game-level" class="row">
-            <div class="col-md-12" id="skill-buttons">
-                    <h2 class="game-titles">Choose your Skill Level</h2>
-
-                    <button data-type="easy" class="btn btn-primary skill-button">Easy</button>
-                    <button data-type="medium" class="btn btn-primary skill-button">Medium</button>
-                    <button data-type="hard" class="btn btn-primary skill-button">Hard</button>
-            </div>
-        </div> -->
-        <!-- Rules Screen -->  
-        <div id="rules-screen" class="row">
-            <div class="col-md-12 rules-box">
-                    <h2 class="game-titles">Game Rules</h2>
-                    <p>Guess the odd one out of a group of photos.</p>
-                    <p>Guessing the correct answer gets a bonus question.</p>
-                    <p>Play to get the Highest Score.</p>
-                    <p>What are you waiting for? Get Picking?</p>
-            
-                    <button class="btn btn-primary" id="close-btn" onclick="closeGameRules">Close</button>
-            </div>
-        </div>
-        <!-- Game Screen One -->  
-        <div id="game-screen-one" class="row">
-            <div class="col-md-12 flex">
-                    <h2 class="game-titles"></h2>
-                    <p id="score"></p>
-                    <p id="question">Which is the Odd One Out?</p>
-                    <div class="row">
-                        <div class="col-md-6 flex question-container-one">
-                            <div class="question-choice">
-                                <p class="choice-prefix">1</p>
-                                <p class="choice-text" data-number="1">Choice 1</p>
+            <!-- Game Screen One -->  
+            <div id="game-screen-one" class="row">
+                <div class="col-md-6 game-area flex">
+                        <h2 class="game-titles"></h2>
+                        <p id="score"></p>
+                        <p id="question">Which is the Odd One Out?</p>
+                        <div class="row">
+                            <div class="col-md-6 flex question-container-one">
+                                <div class="question-choice flex">
+                                    <p class="choice-text" data-number="1">Choice 1</p>
+                                </div>
+                                <div class="question-choice flex">
+                                    <p class="choice-text" data-number="3">Choice 3</p>
+                                </div>
                             </div>
-                            <div class="question-choice">
-                                <p class="choice-prefix">3</p>
-                                <p class="choice-text" data-number="3">Choice 3</p>
+                            <div class="col-md-6 flex question-container-two">
+                                <div class="question-choice flex">
+                                    <p class="choice-text" data-number="2">Choice 2</p>
+                                </div>
+                                
+                                <div class="question-choice flex">
+                                    <p class="choice-text" data-number="4">Choice 4</p>
+                                </div>
                             </div>
                         </div>
-                        <div class="col-md-6 flex question-container-two">
-                            <div class="question-choice">
-                                <p class="choice-prefix">2</p>
-                                <p class="choice-text" data-number="2">Choice 2</p>
-                            </div>
-                            
-                            <div class="question-choice">
-                                <p class="choice-prefix">4</p>
-                                <p class="choice-text" data-number="4">Choice 4</p>
-                            </div>
+                </div>
+
+                        <p id="answer"></p>
+
+                        <p id="answerReason"></p>
+
+                        <button class="btn btn-primary next-button" id="next-btn" onclick="shownextQuestion">Next Question</button>
+
+                        <button class="btn btn-primary bonus-button" id="bonus-btn" onclick="showBonusQuestion">Bonus Question</button>
+            </div>
+
+            <div id="game-screen-two" class="row">
+                <div class="col-md-12">
+                        <h2 class="game-titles">Name - Score</h2>
+                        <div class="quiz-images">
+                            <img src="" alt="" sizes="" srcset="">
                         </div>
-                    </div>
 
-                    <p id="answer"></p>
+                        <p id="answer"></p>
+                </div>
+                        <button class="btn btn-primary next-button" id="next-btn" onclick="shownextQuestion">Next Question</button>
+            </div>
 
-                    <p id="answerReason"></p>
+            
 
-                    <button class="btn btn-primary next-button" id="next-btn" onclick="shownextQuestion">Next Question</button>
-
-                    <button class="btn btn-primary bonus-button" id="bonus-btn" onclick="showBonusQuestion">Bonus Question</button>
         </div>
-
-        <div id="game-screen-two" class="row">
-            <div class="col-md-12">
-                    <h2 class="game-titles">Name - Score</h2>
-                    <div class="quiz-images">
-                        <img src="" alt="" sizes="" srcset="">
-                    </div>
-
-                    <p id="answer"></p>
-
-                    <button class="btn btn-primary next-button" id="next-btn" onclick="shownextQuestion">Next Question</button>
-        </div>
-
+            <footer id="footer" class="flex-center flex-column">
+                <p>Developed by Barry Ferguson 2023</p>
+                <ul class="contacts flex">
+                    <li><i class="fa-solid fa-envelope"></i></li>
+                    <li><i class="fa-brands fa-github"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                </ul>
+            </footer>
     </div>
     <!-- Game Scripts -->
     <script src="assets/js/game-data.js"></script>
