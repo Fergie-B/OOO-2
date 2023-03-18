@@ -29,17 +29,17 @@ let errorMessage = document.getElementById("login-error");
 // let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
 let questionTypeTwo = document.getElementById("game-screen-two");
-let contactFormOne = document.getElementById("contact-form");
+let seeContactForm = document.getElementById("contact-form-area");
 /**
  * Function to run the main page with user login
  */
 function runMainPage() {
     questionTypeOne.style.display = "none";
     questionTypeTwo.style.display = "none";
+    seeContactForm.style.display = "none";
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
-    contactFormOne.style.display = "none";
 //   chooseGameLevel.style.display = "none";
 }
 

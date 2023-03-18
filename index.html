@@ -100,27 +100,23 @@
                         <button class="btn btn-primary bonus-button" id="bonus-btn" onclick="showBonusQuestion">Bonus Question</button>
             </div>
 
-            <div id="contact-form" class="col-md-6 contact-area">
-                <h1>Contact Us</h1>
-                <form method="post" action="https://forumdump.codeinstitute.net" class="contact-form">
-                    <div class="mb-3">
-                        <label for="exampleInputName1" class="form-label">Your Name</label>
-                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Your Name" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address" required>
-                        <div id="emailHelp" class="form-text">We'll never share your email or telephone number with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary form-button">Submit</button>
-                </form>
-            </div>
-        </div> <!--  End of Game Container Div -->
+            <div id="game-screen-two" class="row">
+                <div class="col-md-12">
+                        <h2 class="game-titles">Name - Score</h2>
+                        <div class="quiz-images">
+                            <img src="" alt="" sizes="" srcset="">
+                        </div>
 
+                        <p id="answer"></p>
+                </div>
+                        <button class="btn btn-primary next-button" id="next-btn" onclick="shownextQuestion">Next Question</button>
+            </div>
+
+            <div id="contact-form-area">
+                <p>form</p>
+            </div>
+
+        </div>
             <footer id="footer" class="flex-center flex-column">
                 <p>Developed by Barry Ferguson 2023</p>
                 <ul class="contact-list flex">
@@ -129,7 +125,7 @@
                     <li><i class="fa-brands fa-linkedin"></i></li>
                 </ul>
             </footer>
-    </div><!--  End of Wrapper Div -->
+    </div>
     <!-- Game Scripts -->
     <script src="assets/js/game-data.js"></script>
     <script src="assets/js/game.js"></script>
