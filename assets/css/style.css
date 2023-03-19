@@ -62,7 +62,7 @@ body  p {
     max-height: 200px;
     margin: auto;
     margin-top: 5%;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 input, label {
@@ -168,4 +168,11 @@ footer p {
 .contact-list i {
     font-size: 2rem;
     color: #fff;
+}
+
+/* Contact Form Styling */
+.contact-area {
+    width: 60%;
+    position: relative;
+    margin: 0 auto;
 }

@@ -36,7 +36,6 @@ let errorMessage = document.getElementById("login-error");
 // let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
 // let questionTypeTwo = document.getElementById("game-screen-two");
-let seeContactForm = document.getElementById("contact-form-area");
 let finishScreen = document.getElementById("end-screen");
 
 /**
@@ -45,7 +44,6 @@ let finishScreen = document.getElementById("end-screen");
 function runMainPage() {
     questionTypeOne.style.display = "none";
     // questionTypeTwo.style.display = "none";
-    seeContactForm.style.display = "none";
     finishScreen.style.display = "none";
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
