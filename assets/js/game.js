@@ -14,9 +14,16 @@ const choices = Array.from(document.getElementsByClassName("choice-text"));
 
 let currentQuestion = {};
 let score = 0;
+acceptingAnswers = false;
+let questionCounter = 0;
 let availableQuestions = [];
 
+
 let questions = [];
+
+// Constants
+const CORRECT_BONUS = 10;
+const MAX_QUESTIONS = 8;
 
 /**
  * Setting up Quiz variables to show/hide divs
@@ -84,15 +91,17 @@ function checkUserName() {
 checkUserName();
 
 function startGame() {
+    questionCounter = 0;
+    score = 0;
     questions = imageChoices;
     availableQuestions = [...questions];
     // console.log(availableQuestions);
     getNewQuestion();
 }
-startGame();
 
 // From Youtube Tutorial https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=5
 function getNewQuestion() {
+    questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -102,8 +111,18 @@ function getNewQuestion() {
         choice.innerText = currentQuestion['choice' + number];
     });
     
+    availableQuestions.splice(questionIndex,1);
 
+    acceptingAnswers = true;
 };
+
+choices.forEach(choice => {
+    choice.addEventListener("click", e => {
+        console.log(e.target);
+    });
+});
+
+startGame();
 
 /**
  * Code to Select the Users desired skill level
