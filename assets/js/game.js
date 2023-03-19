@@ -35,15 +35,18 @@ let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
 // let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
-let questionTypeTwo = document.getElementById("game-screen-two");
+// let questionTypeTwo = document.getElementById("game-screen-two");
 let seeContactForm = document.getElementById("contact-form-area");
+let finishScreen = document.getElementById("end-screen");
+
 /**
  * Function to run the main page with user login
  */
 function runMainPage() {
     questionTypeOne.style.display = "none";
-    questionTypeTwo.style.display = "none";
+    // questionTypeTwo.style.display = "none";
     seeContactForm.style.display = "none";
+    finishScreen.style.display = "none";
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
@@ -101,6 +104,11 @@ function startGame() {
 
 // From Youtube Tutorial https://www.youtube.com/watch?v=zZdQGs62cR8&list=PLB6wlEeCDJ5Yyh6P2N6Q_9JijB6v4UejF&index=5
 function getNewQuestion() {
+     if (availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
+         // show the Finish Screen and hide the Question Screen
+         questionTypeOne.style.display = "none";
+         finishScreen.style.display = "block";
+     }
     questionCounter++;
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
