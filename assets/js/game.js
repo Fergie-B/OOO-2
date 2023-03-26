@@ -132,6 +132,13 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
 
+        if (selectedAnswer == currentQuestion.correctAnswer) {
+            addToScore(correctAnswerPoints);
+            document.getElementById("next-btn").style.display = "block";
+            document.getElementById("answer-reason").style.display = "block";
+
+        }
+
         const classToApply =
          selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
@@ -147,8 +154,12 @@ choices.forEach(choice => {
 startGame();
 
 /**
- * Display the Username and Score
+ * Display and update the Users current score
  */
+function addToScore(num) {
+    score += num;
+    scoreText.innerText = score;
+}
 
 
 /**
