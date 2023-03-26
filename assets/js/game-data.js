@@ -28,7 +28,7 @@ const imageChoices = [
         answerReason: "Burger King is a fast food brand, Facebook, Twitter and Instagram are Social Media Brands!"
     },
     {
-        question: "Which  is the Odd One Out of these four Major cities?",
+        question: "Which  is the Odd One Out of the Major cities?",
         choice1: 'London',
         choice2: 'Madrid',
         choice3: 'Sydney',
@@ -58,7 +58,7 @@ const imageChoices = [
         question: "Who is the Odd One out of these celebrities?",
         choice1: 'Axl Rose',
         choice2: 'Chris Pratt',
-        choice3: 'Gwyneth Paltrow',
+        choice3: 'Gwynet Paltrow',
         choice4: 'Vince Vaughn',
         correctAnswer: 1,
         answerReason: "Axl Rose is a singer, the rest are actors or actresses."

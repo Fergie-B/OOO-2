@@ -156,7 +156,7 @@ choices.forEach(choice => {
 startGame();
 
 /**
- * Display and update the Users current score
+ * Display and update the Users current score with a Template Literal String
  */
 function addToScore(num) {
     score += num;
