@@ -37,6 +37,7 @@ let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
 // let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
+let playGameAgain = document.getElementById("game-screen-one");
 // let questionTypeTwo = document.getElementById("game-screen-two");
 let finishScreen = document.getElementById("end-screen");
 
@@ -107,12 +108,6 @@ function getNewQuestion() {
          // show the Finish Screen and hide the Question Screen
          questionTypeOne.style.display = "none";
          finishScreen.style.display = "block";
-         document.getElementById("final-score").innerText = "Congratulations " + `${userName}` + "you scored " + `${score}` + " points";
-
-         document.getElementById("play-again").addEventListener("click", function () {
-            score = 0;
-            questionTypeOne.style.display = "block";
-         });
      }
     questionCounter++;
     document.getElementById("username").style.display = "inline-block";

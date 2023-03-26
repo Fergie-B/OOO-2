@@ -233,3 +233,7 @@ footer p {
     position: relative;
     margin: 0 auto;
 }
+
+.contact-form .form-control {
+    border: 2px solid var(--green);
+}
