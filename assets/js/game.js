@@ -16,7 +16,6 @@ const answerReason = document.getElementById("question");
 
 let currentQuestion = {};
 let score = 0;
-let username = "";
 acceptingAnswers = false;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -77,13 +76,13 @@ function closeGameRules() {
 document.getElementById("enter-user").addEventListener("click" , checkUserName);
 
 function checkUserName() {
-    let username = document.getElementById("player").value.trim();
+    let userName = document.getElementById("player").value.trim();
 
-    if (username.length >= 1 && username.length <= 20) {
+    if (userName.length >= 1 && userName.length <= 20) {
         questionTypeOne.style.display = "block";
         seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
-        document.getElementById("username").innerText = "Username: " + `${username}`;
+        document.getElementById("username").innerText = "Username: " + `${userName}`;
         startGame();
     } else {
         errorMessage.style.display = "block";
@@ -108,7 +107,12 @@ function getNewQuestion() {
          // show the Finish Screen and hide the Question Screen
          questionTypeOne.style.display = "none";
          finishScreen.style.display = "block";
-         document.getElementById("final-score").innerText = "Congratulations " + `${username}` + "you scored " + `${score}` + " points";
+         document.getElementById("final-score").innerText = "Congratulations " + `${userName}` + "you scored " + `${score}` + " points";
+
+         document.getElementById("play-again").addEventListener("click", function () {
+            score = 0;
+            questionTypeOne.style.display = "block";
+         });
      }
     questionCounter++;
     document.getElementById("username").style.display = "inline-block";
