@@ -16,6 +16,7 @@ const answerReason = document.getElementById("question");
 
 let currentQuestion = {};
 let score = 0;
+let username = "";
 acceptingAnswers = false;
 let questionCounter = 0;
 let availableQuestions = [];
@@ -82,7 +83,7 @@ function checkUserName() {
         questionTypeOne.style.display = "block";
         seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
-        document.getElementById("username").innerText = username;
+        document.getElementById("username").innerText = "Username: " + `${username}`;
         startGame();
     } else {
         errorMessage.style.display = "block";
@@ -107,6 +108,7 @@ function getNewQuestion() {
          // show the Finish Screen and hide the Question Screen
          questionTypeOne.style.display = "none";
          finishScreen.style.display = "block";
+         document.getElementById("final-score").innerText = "Congratulations " + `${username}` + "you scored " + `${score}` + " points";
      }
     questionCounter++;
     document.getElementById("username").style.display = "inline-block";
@@ -159,9 +161,8 @@ startGame();
  */
 function addToScore(num) {
     score += num;
-    scoreText.innerText = `Score: ${score}`;
+    scoreText.innerText = "Score: " + `${score}`;
 }
-addToScore();
 
 /**
  * Code to Select the Users desired skill level

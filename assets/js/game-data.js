@@ -28,7 +28,7 @@ const imageChoices = [
         answerReason: "Burger King is a fast food brand, Facebook, Twitter and Instagram are Social Media Brands!"
     },
     {
-        question: "Which  is the Odd One Out of the Major cities?",
+        question: "Which  is the Odd One Out of these Major cities?",
         choice1: 'London',
         choice2: 'Madrid',
         choice3: 'Sydney',

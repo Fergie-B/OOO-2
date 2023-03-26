@@ -38,7 +38,7 @@ body  p {
 
 .game-titles {
     font-family: Righteous, cursive;
-    color: var(--green);
+    color: var(--light-blue);
     font-size: 3rem;
     text-align: center;
     margin: 0 auto;
@@ -134,14 +134,16 @@ input, label {
     display: inline-block;
 }
 
-#score {
-    position: relative;
-    padding: 2em;
-}
-
 #username {
     position: relative;
-    padding: 2em;
+    float: left;
+    padding-left: 1em;
+}
+
+#score {
+    position: relative;
+    float: right;
+    padding-right: 1em;
 }
 
 .question-container-one {
@@ -174,7 +176,7 @@ input, label {
 }
 
 .question-choice:hover {
-    border: 4px solid var(--light-blue);
+    border: 4px solid var(--green);
 }
 
 .choice-text {
