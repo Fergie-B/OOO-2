@@ -43,10 +43,6 @@ body  p {
     display: inline-block;
 }
 
-.game-titles span {
-    display: inline-block;
-}
-
 /* Main Game Container Styling */
 #game-container {
     position: relative;
@@ -59,6 +55,10 @@ body  p {
     top: 5%;
     max-width: 830px;
     border-radius: 2%;
+}
+
+.logo-area {
+    max-height: 240px;
 }
 
 .logo-main {
@@ -96,6 +96,10 @@ input, label {
     background-color: var(--green);
     padding: 8px 0 8px 0;
 }
+/* User Info Screen Styling */
+.user-info {
+    margin-top: 80px;
+}
 
 /* Rules Screen Styling */
 .rules-box {
@@ -124,8 +128,7 @@ input, label {
 
 #score {
     position: relative;
-    display: inline-flex;
-    text-align: left;
+    padding-right: 40px;
     float: right;
 }
 
