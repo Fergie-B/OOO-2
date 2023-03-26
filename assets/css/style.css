@@ -40,6 +40,11 @@ body  p {
     font-family: Righteous, cursive;
     color: var(--green);
     font-size: 3rem;
+    display: inline-block;
+}
+
+.game-titles span {
+    display: inline-block;
 }
 
 /* Main Game Container Styling */
@@ -110,12 +115,35 @@ input, label {
     margin: 0 auto;
 
 }
+
+.game-info {
+    height: 100px;
+    position: relative;
+    display: inline-flex;
+}
+
+#score {
+    position: relative;
+    display: inline-flex;
+    text-align: left;
+    float: right;
+}
+
 .question-container-one {
     flex-direction: column;
 }
 
 .question-container-two {
     flex-direction: column;
+}
+
+#question {
+    width: 100%;
+}
+
+.question-container {
+    padding-top: 20px;
+    min-height: 200px;
 }
 
 .question-choice {

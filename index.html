@@ -67,12 +67,12 @@
             <!-- Game Screen One -->  
             <div id="game-screen-one" class="row">
                 <div class="col-md-6 game-area flex">
-                    <div class="row">
+                    <div class="row game-info">
                         <h2 class="game-titles"></h2>
-                        <p id="score">0</p>
+                        <h2 class="game-titles">Your Score:<span id ="score">0</span></h2>
                         <p id="question">Which is the Odd One Out?</p>
                     </div>
-                        <div class="row">
+                        <div class="row question-container">
                             <div class="col-md-6 flex question-container-one">
                                 <div class="question-choice flex">
                                     <p class="choice-text" data-number="1">Choice 1</p>
@@ -91,13 +91,12 @@
                                 </div>
                             </div>
                         </div>
-                </div>
-
-                        <p id="answer"></p>
-
-                        <p id="answerReason"></p>
-
+                    </div>
+                    <div class="row">
                         <button class="btn btn-primary next-button" id="next-btn" onclick="shownextQuestion">Next Question</button>
+                    </div>
+
+                        
 
                     
             </div>

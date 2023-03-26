@@ -134,9 +134,11 @@ choices.forEach(choice => {
 
         if (selectedAnswer == currentQuestion.correctAnswer) {
             addToScore(correctAnswerPoints);
-            document.getElementById("next-btn").style.display = "none";
-            question.innerText = currentQuestion.answerReason;
-
+            document.getElementById("next-btn").style.display = "block";
+            question.innerText = "Correct! "  + `${currentQuestion.answerReason}`;
+        } else {
+            document.getElementById("next-btn").style.display = "block";
+            question.innerText = "Incorrect! "  + `${currentQuestion.answerReason}`;
         }
 
         const classToApply =
