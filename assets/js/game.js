@@ -109,8 +109,8 @@ function getNewQuestion() {
          finishScreen.style.display = "block";
      }
     questionCounter++;
-    document.getElementById("username").style.display = "block";
-    document.getElementById("score").style.display = "block";
+    document.getElementById("username").style.display = "inline-block";
+    document.getElementById("score").style.display = "inline-block";
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -159,9 +159,9 @@ startGame();
  */
 function addToScore(num) {
     score += num;
-    scoreText.innerText = score;
+    scoreText.innerText = `Score: ${score}`;
 }
-
+addToScore();
 
 /**
  * Code to Select the Users desired skill level
