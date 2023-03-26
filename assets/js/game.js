@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const scoreText = document.getElementById("score");
+const answerReason = document.getElementById("question");
 // console.log(choices);
 
 let currentQuestion = {};
@@ -82,7 +83,6 @@ function checkUserName() {
         seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
         document.getElementById("next-btn").style.display = "none";
-        document.getElementById("bonus-btn").style.display = "none";
         startGame();
     } else {
         errorMessage.style.display = "block";
@@ -134,8 +134,8 @@ choices.forEach(choice => {
 
         if (selectedAnswer == currentQuestion.correctAnswer) {
             addToScore(correctAnswerPoints);
-            document.getElementById("next-btn").style.display = "block";
-            document.getElementById("answer-reason").style.display = "block";
+            document.getElementById("next-btn").style.display = "none";
+            question.innerText = currentQuestion.answerReason;
 
         }
 
