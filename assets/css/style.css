@@ -40,6 +40,8 @@ body  p {
     font-family: Righteous, cursive;
     color: var(--green);
     font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
     display: inline-block;
 }
 
@@ -121,15 +123,19 @@ input, label {
 }
 
 .game-info {
-    height: 100px;
+    width: 100%;
+    min-height: 100px;
     position: relative;
-    display: inline-flex;
+    display: inline-block;
+}
+
+.game-info p {
+    margin-top: 20px;
+    display: inline-block;
 }
 
 #score {
     position: relative;
-    padding-right: 40px;
-    float: right;
 }
 
 .question-container-one {
@@ -176,6 +182,10 @@ input, label {
 
 .incorrect {
     border: 4px solid var(--red);
+}
+
+.button-area {
+    position: relative;
 }
 
 /* Footer Styling */

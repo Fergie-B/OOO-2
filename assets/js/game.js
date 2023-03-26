@@ -82,7 +82,7 @@ function checkUserName() {
         questionTypeOne.style.display = "block";
         seeGameRules.style.display = "none";
         mainUserPage.style.display = "none";
-        document.getElementById("next-btn").style.display = "none";
+        document.getElementById("username").innerText = username;
         startGame();
     } else {
         errorMessage.style.display = "block";
@@ -109,6 +109,7 @@ function getNewQuestion() {
          finishScreen.style.display = "block";
      }
     questionCounter++;
+    document.getElementById("username").style.display = "block";
     document.getElementById("score").style.display = "block";
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
@@ -134,10 +135,8 @@ choices.forEach(choice => {
 
         if (selectedAnswer == currentQuestion.correctAnswer) {
             addToScore(correctAnswerPoints);
-            document.getElementById("next-btn").style.display = "block";
             question.innerText = "Correct! "  + `${currentQuestion.answerReason}`;
         } else {
-            document.getElementById("next-btn").style.display = "block";
             question.innerText = "Incorrect! "  + `${currentQuestion.answerReason}`;
         }
 
@@ -149,7 +148,7 @@ choices.forEach(choice => {
         setTimeout(() => {
         selectedChoice.parentElement.classList.remove(classToApply);
         getNewQuestion();
-        }, 1000);
+        }, 3000);
     });
 });
 
@@ -160,7 +159,7 @@ startGame();
  */
 function addToScore(num) {
     score += num;
-    scoreText.innerText = "Your Score: "  + `${score}`;
+    scoreText.innerText = score;
 }
 
 

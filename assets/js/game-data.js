@@ -58,7 +58,7 @@ const imageChoices = [
         question: "Who is the Odd One out of these celebrities?",
         choice1: 'Axl Rose',
         choice2: 'Chris Pratt',
-        choice3: 'Gwynet Paltrow',
+        choice3: 'Gwyneth Paltrow',
         choice4: 'Vince Vaughn',
         correctAnswer: 1,
         answerReason: "Axl Rose is a singer, the rest are actors or actresses."
