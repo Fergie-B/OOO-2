@@ -160,7 +160,7 @@ startGame();
  */
 function addToScore(num) {
     score += num;
-    scoreText.innerText = score;
+    scoreText.innerText = "Your Score: "  + `${score}`;
 }
 
 
