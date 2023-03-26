@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
  */
 const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
+const scoreText = document.getElementById("score");
 // console.log(choices);
 
 let currentQuestion = {};
@@ -22,7 +23,7 @@ let availableQuestions = [];
 let questions = [];
 
 // Constants
-const CORRECT_BONUS = 10;
+const correctAnswerPoints = 10;
 const MAX_QUESTIONS = 8;
 
 /**
@@ -108,6 +109,7 @@ function getNewQuestion() {
          finishScreen.style.display = "block";
      }
     questionCounter++;
+    document.getElementById("score").style.display = "block";
     const questionIndex = Math.floor(Math.random() * availableQuestions.length);
     currentQuestion = availableQuestions[questionIndex];
     question.innerText = currentQuestion.question;
@@ -130,11 +132,24 @@ choices.forEach(choice => {
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
 
+        const classToApply =
+         selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
+
+        selectedChoice.parentElement.classList.add(classToApply);
+
+        setTimeout(() => {
+        selectedChoice.parentElement.classList.remove(classToApply);
         getNewQuestion();
+        }, 1000);
     });
 });
 
 startGame();
+
+/**
+ * Display the Username and Score
+ */
+
 
 /**
  * Code to Select the Users desired skill level
