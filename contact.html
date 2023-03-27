@@ -28,7 +28,7 @@
             </div><!-- Close Row -->
             <div id="contact-form-area" class="row">
                 <div class="contact-area col-md-12">
-                    <form method="post" action="" class="contact-form">
+                    <form method="post" action="" id = "contact-form" class="contact-form">
                         <div class="mb-3">
                             <label for="exampleInputName1" class="form-label">Your Name</label>
                             <input type="text" class="form-control" id="exampleInputName1" placeholder="Your Name" required>
@@ -41,8 +41,8 @@
                             <label for="exampleFormControlTextarea1" class="form-label">Your Message</label>
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message..."></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary form-button">Submit</button>
-                        <button type="button" class="btn btn-primary form-button" onclick="window.location.href='index.html';">Back to Game</button>
+                        <button type="submit" id = "btn-submit" class="btn btn-primary form-button">Submit</button>
+                        <button type="button"  class="btn btn-primary form-button" onclick="window.location.href='index.html';">Back to Game</button>
                     </form>
                 </div>
              </div><!-- Close Contact Form Area -->  
@@ -60,10 +60,6 @@
     </div>
     <!-- Contact Form Script -->
     <script src="assets/js.contact-form.js"></script>
-    <!-- Game Scripts -->
-    <script src="assets/js/game-data.js"></script>
-    <script src="assets/js/game.js"></script>
-
     <!-- Link to Bootstrap V5.0 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
