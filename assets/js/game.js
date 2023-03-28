@@ -37,7 +37,7 @@ let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
 // let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
-let playGameAgain = document.getElementById("game-screen-one");
+let playGameAgain = document.getElementById("play-again");
 // let questionTypeTwo = document.getElementById("game-screen-two");
 let finishScreen = document.getElementById("end-screen");
 
@@ -108,6 +108,7 @@ function getNewQuestion() {
          // show the Finish Screen and hide the Question Screen
          questionTypeOne.style.display = "none";
          finishScreen.style.display = "block";
+         playGameAgain.addEventListener("click", runMainPage);
      }
     questionCounter++;
     document.getElementById("username").style.display = "inline-block";
@@ -154,6 +155,8 @@ choices.forEach(choice => {
 });
 
 startGame();
+
+
 
 /**
  * Display and update the Users current score with a Template Literal String
