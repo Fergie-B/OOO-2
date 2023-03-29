@@ -40,6 +40,7 @@ let questionTypeOne = document.getElementById("game-screen-one");
 let playGameAgain = document.getElementById("play-again");
 // let questionTypeTwo = document.getElementById("game-screen-two");
 let finishScreen = document.getElementById("end-screen");
+let endMessage = document.getElementById("final-score");
 
 /**
  * Function to run the main page with user login
@@ -108,6 +109,7 @@ function getNewQuestion() {
          // show the Finish Screen and hide the Question Screen
          questionTypeOne.style.display = "none";
          finishScreen.style.display = "block";
+         document.getElementById("final-score").innerText = "Congratulations " + `${userName}` /n + "you scored " `${score}` + "points";
          playGameAgain.addEventListener("click", runMainPage);
      }
     questionCounter++;
