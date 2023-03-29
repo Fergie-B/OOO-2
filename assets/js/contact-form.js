@@ -19,15 +19,16 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
                 });
             });
 
+
 /**
  * Hides Contact Form and Display a message to the user that the form has submitted
  */
 function submittedMessage() {
     let html = `
-                <div class="contact-form>
+                <div class="message-screen>
                     <p>Thank you, your message has been submitted</p>
                     <button type="button"  class="btn btn-primary form-button" onclick="window.location.href='index.html';">Back to Game</button>
                 </div>
                 `;
-        document.getElementById("contact-form").innerHTML = html;
+        document.getElementById("contact-form-area").innerHTML = html;
 }
