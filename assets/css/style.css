@@ -237,3 +237,23 @@ footer p {
 .contact-form .form-control {
     border: 2px solid var(--green);
 }
+
+/* Contact Form Submitted Message Screen Styling */
+.message-screen {
+    min-height: 400px;
+}
+
+#contact-form-area >.message-screen p {
+    color: var(--Jet);
+    font-size: large;
+}
+
+.message-screen > .btn {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    background-color: var(--light-blue);
+    text-align: center;
+    min-width: 200px;
+}

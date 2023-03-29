@@ -24,10 +24,11 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
  * Hides Contact Form and Display a message to the user that the form has submitted
  */
 function submittedMessage() {
-    let html = `    <div class="message-screen>
+    let html = `    
+                <div class="message-screen">
                     <p>Thank you, your message has been submitted</p>
                     <input type="button"  class="btn btn-primary form-button" onclick="window.location.href='index.html';" value="Back to Game">
-                    </div>
+                </div>
                 `;
         document.getElementById("contact-form-area").innerHTML = html;
 }
