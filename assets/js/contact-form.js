@@ -26,6 +26,7 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
 function submittedMessage() {
     let html = `    
                 <div class="message-screen">
+                <h1>Success!</h1>
                     <p>Thank you, your message has been submitted</p>
                     <input type="button"  class="btn btn-primary form-button" onclick="window.location.href='index.html';" value="Back to Game">
                 </div>
