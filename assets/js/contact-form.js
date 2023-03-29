@@ -10,25 +10,24 @@ document.getElementById("contact-form").addEventListener("submit", function (eve
         buttonSubmit.value = "Sending..."; // Show message status on button in sending progress
                 
         emailjs.sendForm('default_service', 'ooo-template', this)
-                .then(function() {
-                    console.log('SUCCESS!');
-                 submittedMessage();   
+                .then(() => {
+                    buttonSubmit.value ="Submit"
+                    submittedMessage();   
 
-                }, function(error) {
-                    console.log('FAILED...', error);
+                }, (error) => {
+                    console.log(JSON.stringify(error));
                 });
-            });
+});
 
 
 /**
  * Hides Contact Form and Display a message to the user that the form has submitted
  */
 function submittedMessage() {
-    let html = `
-                <div class="message-screen>
+    let html = `    <div class="message-screen>
                     <p>Thank you, your message has been submitted</p>
-                    <button type="button"  class="btn btn-primary form-button" onclick="window.location.href='index.html';">Back to Game</button>
-                </div>
+                    <input type="button"  class="btn btn-primary form-button" onclick="window.location.href='index.html';" value="Back to Game">
+                    </div>
                 `;
         document.getElementById("contact-form-area").innerHTML = html;
 }
