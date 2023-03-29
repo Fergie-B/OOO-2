@@ -36,10 +36,28 @@ body  p {
     text-align: center;
 }
 
-.game-titles {
+h1 {
     font-family: Righteous, cursive;
     color: var(--light-blue);
     font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+h2 {
+    font-family: Righteous, cursive;
+    color: var(--light-blue);
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.game-titles {
+    font-family: Righteous, cursive;
+    color: var(--light-blue);
+    font-size: 2rem;
     text-align: center;
     margin: 0 auto;
     display: inline-block;
@@ -100,6 +118,10 @@ input, label {
 }
 /* User Info Screen Styling */
 .user-info {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    min-height: 400px;
     margin-top: 80px;
 }
 
