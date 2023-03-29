@@ -19,7 +19,7 @@ let score = 0;
 acceptingAnswers = false;
 let questionCounter = 0;
 let availableQuestions = [];
-
+let userName = document.getElementById("player");
 
 let questions = [];
 
@@ -109,7 +109,7 @@ function getNewQuestion() {
          // show the Finish Screen and hide the Question Screen
          questionTypeOne.style.display = "none";
          finishScreen.style.display = "block";
-         document.getElementById("final-score").innerText = "Congratulations " + `${userName}` /n + "you scored " `${score}` + "points";
+         document.getElementById("final-score").innerText = "Congratulations " + `${userName} you scored ${score}` + " points";
          playGameAgain.addEventListener("click", runMainPage);
      }
     questionCounter++;
