@@ -227,23 +227,25 @@ deem to be the Odd One Out of the group of four options as per the question pose
 ###  Footer
 - The Footer is visible and accessible on all screens
 - Contains links to the site contact form, the game developers github and their social media profile - these open in new windows
-- - User Stories covered: 8, 15
+- User Stories covered: 8, 15
 
 ![Footer](docs/features/features-finalscore.png)
 
-### Section
-- 
-- User Stories Covered: xxxx
+### Contact Form
+- The user can send the developer feedback on the game
+- Email JS has been utilised in the form to allow the developer to recieve messages from users
+- User Stories Covered: 8, 15
 
-![](docs/features/)
+![Contact Form](docs/features/features-finalscore.png)
 
-###  Section
-- 
-- User stories covered: xxxx
+###  Message Confirmation Screen
+- A Success message is displayed informing the user that their message has been submitted and thanking them
+- A Button is displayed that brings them back to the Home Screen
+- User stories covered: 9
 
-![](docs/features/)
+![Message Success](docs/features/features-message.png)
 
-###  Section
+### 404 Section
 - 
 - User stories covered: xxxx
 
