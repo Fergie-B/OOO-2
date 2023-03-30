@@ -1,7 +1,7 @@
 # Odd One Out - Multiple choice text quiz game
 (Developer: Barry Ferguson)
 
-![Mockup image](https://ui.dev/images/rwd/laptop-screen-optimised.png)
+![Mockup image](docs/am-i-responsive.png)
 
 [Live Webpage](https://fergie-b.github.io/OOO-2/)
 
