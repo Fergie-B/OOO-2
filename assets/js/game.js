@@ -12,8 +12,10 @@ const question = document.getElementById("question");
 const choices = Array.from(document.getElementsByClassName("choice-text"));
 const scoreText = document.getElementById("score");
 const answerReason = document.getElementById("question");
-// console.log(choices);
 
+/**
+ * Setting up variables for the questions
+ */
 let currentQuestion = {};
 let score = 0;
 acceptingAnswers = false;
@@ -23,7 +25,7 @@ let userName = document.getElementById("player");
 
 let questions = [];
 
-// Constants
+// Constants to set the number of points for a correct answer and the max number of questions
 const correctAnswerPoints = 10;
 const MAX_QUESTIONS = 8;
 
@@ -49,7 +51,7 @@ function runMainPage() {
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
-    document.getElementById("")
+}
 
 /**
  * Show Rules Screen and go back to main screen Functions
@@ -69,7 +71,7 @@ function closeGameRules() {
 }
 
 /**
- * Code to verify the User Inputs correct username length on log-in screen and load Game Screen Type One
+ * Code to verify the User Inputs correct username length on log-in screen and load Game Screen One
  */
 document.getElementById("enter-user").addEventListener("click" , checkUserName);
 
@@ -132,7 +134,7 @@ choices.forEach(choice => {
         acceptingAnswers = false;
         const selectedChoice = e.target;
         const selectedAnswer = selectedChoice.dataset["number"];
-
+        // If Else Statement to add points on a correct answer and to display the answer reason
         if (selectedAnswer == currentQuestion.correctAnswer) {
             addToScore(correctAnswerPoints);
             question.innerText = "Correct! "  + `${currentQuestion.answerReason}`;
@@ -144,7 +146,7 @@ choices.forEach(choice => {
          selectedAnswer == currentQuestion.answer ? "correct" : "incorrect";
 
         selectedChoice.parentElement.classList.add(classToApply);
-
+        // Set the timeout between questions
         setTimeout(() => {
         selectedChoice.parentElement.classList.remove(classToApply);
         getNewQuestion();
@@ -154,8 +156,6 @@ choices.forEach(choice => {
 
 startGame();
 
-
-
 /**
  * Display and update the Users current score with a Template Literal String
  */
@@ -164,16 +164,3 @@ function addToScore(num) {
     scoreText.innerText = "Score: " + `${score}`;
 }
 
-/**
- * Code to Select the Users desired skill level
- */
-// function chooseSkillLevel() {
-//     document.getElementById("skill-buttons").addEventListener("click", function (event) {
-//         if (!event.target.className.includes("skill-button")) return;
-//         let button = event.target;
-//         let skillLevel = button.getAttribute("data-type");
-//         setSkill(skillLevel);
-//     });
-// }
-// chooseSkillLevel();
-// console.log(chooseSkillLevel);

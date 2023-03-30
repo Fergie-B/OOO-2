@@ -354,6 +354,14 @@ footer p {
         height: 48%;
     }
 
+    .question-choice-left:hover {
+        border: 4px solid var(--green);
+    }
+    
+    .question-choice-right:hover {
+        border: 4px solid var(--green);
+    }
+
     .contact-area {
         width: 80%;
         position: relative;
@@ -391,6 +399,14 @@ footer p {
         position: relative;
         float: none;
         text-align: center;
+    }
+
+    .question-choice-left:hover {
+        border: 4px solid var(--green);
+    }
+    
+    .question-choice-right:hover {
+        border: 4px solid var(--green);
     }
 
     .contact-area {
