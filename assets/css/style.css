@@ -48,15 +48,6 @@ h1 {
 h2 {
     font-family: Righteous, cursive;
     color: var(--light-blue);
-    font-size: 1.5rem;
-    text-align: center;
-    margin: 0 auto;
-    display: inline-block;
-}
-
-.game-titles {
-    font-family: Righteous, cursive;
-    color: var(--light-blue);
     font-size: 2rem;
     text-align: center;
     margin: 0 auto;
@@ -197,7 +188,7 @@ input, label {
     border: 2px solid var(--light-blue);
     border-radius: 5px;
     width: 40%;
-    min-height: 80%;
+    height: 80%;
 }
 
 .question-choice-right {
@@ -208,7 +199,7 @@ input, label {
     border: 2px solid var(--light-blue);
     border-radius: 5px;
     width: 40%;
-    min-height: 80%;
+    height: 80%;
 }
 
 .question-choice-left:hover {
@@ -301,4 +292,112 @@ footer p {
     background-color: var(--light-blue);
     text-align: center;
     min-width: 200px;
+}
+
+
+/* Rules for Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    h1 {
+        font-family: Righteous, cursive;
+        color: var(--light-blue);
+        font-size: 2.5rem;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    
+    h2 {
+        font-family: Righteous, cursive;
+        color: var(--light-blue);
+        font-size: 1.5rem;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #username {
+        position: relative;
+        float: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    #score {
+        position: relative;
+        float: none;
+        text-align: center;
+    }
+
+    .question-container-one {
+        flex-direction: column;
+        width: 50%;
+    }
+    
+    .question-container-two {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .question-choice-left {
+        position: relative;
+        display: table;
+        margin-bottom: .4rem;
+        border: 2px solid var(--light-blue);
+        border-radius: 5px;
+        width: 80%;
+        height: 40%;
+    }
+    
+    .question-choice-right {
+        position: relative;
+        display: table;
+        margin-left: 12%;
+        margin-bottom: .4rem;
+        border: 2px solid var(--light-blue);
+        border-radius: 5px;
+        width: 80%;
+        height: 40%;
+    }
+
+    .contact-area {
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+}
+
+/* Rules for Extra small devices (phones, 410px and down) */
+@media only screen and (max-width: 410px) {
+
+    
+    h2 {
+        font-family: Righteous, cursive;
+        color: var(--light-blue);
+        font-size: 1rem;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    #username {
+        position: relative;
+        float: none;
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    #score {
+        position: relative;
+        float: none;
+        text-align: center;
+    }
+
+    .contact-area {
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
+    }
+
 }
