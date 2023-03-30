@@ -236,7 +236,7 @@ deem to be the Odd One Out of the group of four options as per the question pose
 - Email JS has been utilised in the form to allow the developer to recieve messages from users
 - User Stories Covered: 8, 15
 
-![Contact Form](docs/features/features-finalscore.png)
+![Contact Form](docs/features/features-contact.png)
 
 ###  Message Confirmation Screen
 - A Success message is displayed informing the user that their message has been submitted and thanking them
