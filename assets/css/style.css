@@ -189,23 +189,10 @@ input, label {
     min-height: 200px;
 }
 
-.question-choice {
+.question-choice-left {
     position: relative;
     display: table;
     margin-left: auto;
-    margin-right: auto;
-    margin-bottom: .4rem;
-    border: 2px solid var(--light-blue);
-    border-radius: 5px;
-    width: 80%;
-    min-height: 80%;
-}
-
-.question-choice1 {
-    position: relative;
-    display: table;
-    margin-left: auto;
-    margin-right: none;
     margin-bottom: .4rem;
     border: 2px solid var(--light-blue);
     border-radius: 5px;
@@ -213,10 +200,9 @@ input, label {
     min-height: 80%;
 }
 
-.question-choice2 {
+.question-choice-right {
     position: relative;
     display: table;
-    margin-left: none;
     margin-right: auto;
     margin-bottom: .4rem;
     border: 2px solid var(--light-blue);
@@ -225,7 +211,11 @@ input, label {
     min-height: 80%;
 }
 
-.question-choice:hover {
+.question-choice-left:hover {
+    border: 4px solid var(--green);
+}
+
+.question-choice-right:hover {
     border: 4px solid var(--green);
 }
 
