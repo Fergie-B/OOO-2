@@ -35,10 +35,8 @@ let seeGameRules = document.getElementById("rules-screen");
 let showGameRules = document.getElementById("game-rules-btn");
 let hideGameRules = document.getElementById("close-btn");
 let errorMessage = document.getElementById("login-error");
-// let chooseGameLevel = document.getElementById("game-level");
 let questionTypeOne = document.getElementById("game-screen-one");
 let playGameAgain = document.getElementById("play-again");
-// let questionTypeTwo = document.getElementById("game-screen-two");
 let finishScreen = document.getElementById("end-screen");
 let endMessage = document.getElementById("final-score");
 
@@ -47,13 +45,11 @@ let endMessage = document.getElementById("final-score");
  */
 function runMainPage() {
     questionTypeOne.style.display = "none";
-    // questionTypeTwo.style.display = "none";
     finishScreen.style.display = "none";
     errorMessage.style.display = "none";
     mainUserPage.style.display = "block";
     seeGameRules.style.display = "none";
-//   chooseGameLevel.style.display = "none";
-}
+    document.getElementById("")
 
 /**
  * Show Rules Screen and go back to main screen Functions
