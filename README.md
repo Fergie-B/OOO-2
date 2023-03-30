@@ -1,4 +1,4 @@
-# Odd One Out - Project is unfinshed - discussed with Student Care 21/12/2022
+# Odd One Out - Multiple choice text quiz game
 (Developer: Barry Ferguson)
 
 ![Mockup image](docs/am-i-responsive.png)
@@ -53,6 +53,9 @@ The Project Goal was to create an engaging, interactive and user-friendly multip
 - Provide the user with an easy to use navigation system
 - To create a game website that is fully responsive and passes accesibility guidelines
 
+
+##### Back to [top](#table-of-contents)
+
 ## User Experience
 
 ### Target Audience
@@ -86,6 +89,9 @@ The Project Goal was to create an engaging, interactive and user-friendly multip
 13.	I want the game to be fully reponsive and work across all devices
 14.	If the user encounters and error on the site I want a 404 page to be available to bring them back to the home page
 15. I want to be able to receive feedback so the game can be improved 
+
+
+##### Back to [top](#table-of-contents)
 
 ## Design
 
@@ -153,6 +159,9 @@ and navigate.
 <img src="docs/wireframes/wireframes-mobile.png">
 </details>
 
+
+##### Back to [top](#table-of-contents)
+
 ## Technologies Used
 
 ### Languages
@@ -173,6 +182,8 @@ and navigate.
 - [Favicon.io](https://favicon.io/)to generate the site favicon
 - [Font Awesome](https://fontawesome.com/) was used for the Footer Icons
 
+
+##### Back to [top](#table-of-contents)
 
 ## Features
 The Main features of the odd One Out website span across ......
@@ -270,6 +281,8 @@ deem to be the Odd One Out of the group of four options as per the question pose
 <details><summary>See feature</summary>
 <img src="docs/features/features-404.png">
 </details>
+
+##### Back to [top](#table-of-contents)
 
 ## Validation
 
@@ -372,6 +385,8 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 -
 - 
 - 
+    
+##### Back to [top](#table-of-contents)    
 
 ### Testing User Stories
 
@@ -517,6 +532,8 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
+ ##### Back to [top](#table-of-contents)   
+    
 ## Bugs
 
 | **Bug** | **Fix** |
@@ -568,3 +585,6 @@ Images used on the site are not the property of the developer unless stated*
 - The 404 Page was built using instructions from [Github](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
 ## Acknowledgements
+
+    
+##### Back to [top](#table-of-contents)
