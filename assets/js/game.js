@@ -109,7 +109,7 @@ function getNewQuestion() {
          // show the Finish Screen and hide the Question Screen
          questionTypeOne.style.display = "none";
          finishScreen.style.display = "block";
-         document.getElementById("final-score").innerText = "Congratulations " + `${userName} you scored ${score}` + " points";
+         document.getElementById("final-score").innerText = "Congratulations you scored" + `${score}` + " points";
          playGameAgain.addEventListener("click", runMainPage);
      }
     questionCounter++;
