@@ -320,27 +320,15 @@ The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) 
 </details>
 
 ### Accessibility
-The site pages where checked using the [Web AIM Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/).....
-<details><summary></summary>
-<img src="docs/validation/">
+The site pages where checked using the [Web AIM Wave Web Accessibility Evaluation Tool](https://wave.webaim.org/) and no significant issues were reported, some improvements could be made
+<details><summary>Home Screen</summary>
+<img src="docs/validation/validation-accessibity-index.png">
 </details>
-<details><summary></summary>
-<img src="docs/validation/">
+<details><summary>Contact Screen</summary>
+<img src="docs/validation/validation-accessibity-contact.png">
 </details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary></summary>
-<img src="docs/validation/">
+<details><summary>404 Screen</summary>
+<img src="docs/validation/validation-accessibity-404.png">
 </details>
 
 ### Performance Testing
