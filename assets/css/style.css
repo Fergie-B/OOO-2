@@ -126,10 +126,13 @@ input, label {
 }
 
 /* Rules Screen Styling */
+#rules-screen {
+    margin-top: 80px;
+}
+
 .rules-box {
     position: relative;
     margin: auto;
-    margin-top: 80px;
     text-align: center;
     max-width: 500px;
 }
@@ -194,7 +197,31 @@ input, label {
     margin-bottom: .4rem;
     border: 2px solid var(--light-blue);
     border-radius: 5px;
-    min-width: 80%;
+    width: 80%;
+    min-height: 80%;
+}
+
+.question-choice1 {
+    position: relative;
+    display: table;
+    margin-left: auto;
+    margin-right: none;
+    margin-bottom: .4rem;
+    border: 2px solid var(--light-blue);
+    border-radius: 5px;
+    width: 40%;
+    min-height: 80%;
+}
+
+.question-choice2 {
+    position: relative;
+    display: table;
+    margin-left: none;
+    margin-right: auto;
+    margin-bottom: .4rem;
+    border: 2px solid var(--light-blue);
+    border-radius: 5px;
+    width: 40%;
     min-height: 80%;
 }
 
@@ -217,6 +244,11 @@ input, label {
 
 .button-area {
     position: relative;
+}
+
+/* Game End Screen Styling */
+#end-screen {
+    margin-top: 80px;
 }
 
 /* Footer Styling */
