@@ -122,10 +122,10 @@ The Google Display Font [Righteous](https://fonts.google.com/specimen/](https://
 
 
 ### Logo
-........
+The One-colour website logo was designed in Adobe Illustrator using the Teko Font and was outputed as an SVG to keep the image lightweight to speed up loading times.
 
 <details><summary>Logo</summary>
-<img src="docs/features/">
+<img src="docs/features/odd-one-out-logo.png">
 </details>
 
 ### Structure
@@ -137,7 +137,7 @@ and navigate.
 - A Main Game screen where the user receives a correct message on getting the question right
 - A Main Game screen where the user receives a incorrect message on getting the question wrong
 - A Final Score screen that displays the Users final score and offers the choice to play again
-- A Contaact Form Screen that allows the User to contact the developer of the game
+- A Contact Form Screen that allows the User to contact the developer of the game
 - A 404 Screen that offers a link to bring the user back to the Home Page/Start Screen
 
 
