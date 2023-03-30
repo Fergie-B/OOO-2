@@ -117,6 +117,15 @@ input, label {
     margin-top: 80px;
 }
 
+/* 404 Styling */
+.error-area {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    min-height: 400px;
+    margin-top: 80px;
+}
+
 /* Rules Screen Styling */
 #rules-screen {
     margin-top: 80px;
