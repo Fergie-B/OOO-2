@@ -102,7 +102,7 @@ The Project Goal was to create an engaging, interactive and user-friendly multip
 The color scheme was chosen on [Coolors.co](https://coolors.co/faf5da-2b2b2b-4281a4-2c7a2a-c44536) after generation on [Colorsafe.co](http://colorsafe.co/) The #2b2b2b Body Text was also tested for legibility against the Modal background colour #FAF5DA on the [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/) as was the Secondary colours
 
 <details><summary>Odd One Out Colour Scheme</summary>
-<img src="docs/features/features-color-palette.png">
+<img src="docs/features/features-colour-palette.png">
 </details>
 <details><summary>Odd One Out Black Text Contrast Testing</summary>
 <img src="docs/features/features-contrast-testing-1.png">
