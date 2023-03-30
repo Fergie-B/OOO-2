@@ -40,12 +40,12 @@
 
 ## Project Goals
 
-The Project Goal was to create an engaging, interactive and user-friendly image picking game with bonus questions to score extra points.
+The Project Goal was to create an engaging, interactive and user-friendly multiple choice Text game to score points.
 
 ### User Goals
 - To play a game with clear rules
-- Challenge the user to workout which picture contains the Odd One Out
-- To get a high score by answering bonus questions
+- Challenge the user to workout which text contains the Odd One Out
+- To get a high scores
 
 ### Site Owner Goals
 - To create a challenging and entertaining game
@@ -57,7 +57,7 @@ The Project Goal was to create an engaging, interactive and user-friendly image 
 
 ### Target Audience
 - Adult users who enjoy General Knowledge quizzes
-- Adult users who enjoy imagery based games
+- Adult users who enjoy text multiple choice based games
 
 ### User Requirements and Expectations
 - Clear game rules
@@ -71,11 +71,10 @@ The Project Goal was to create an engaging, interactive and user-friendly image 
 
 ### Site User
 1.	As a user of the website, I want the rules of the game to be simple and explained easily
-2.	As a user of the website, I want to be able to enter my name for recording a high score
-3.	As a user of the website, I want to be given the option to choose a difficulty level to play the game at
-4.	As a user of the website, I want to presented with General Knowledge questions to test that skill    
+2.	As a user of the website, I want to be able to enter my name
+3.	As a user of the website, I want to presented with General Knowledge questions to test that skill    
 5.	As a user of the website, I want the game to be clickable on desktop and touchscreen on tablet and mobile devices
-6.	As a user of the website, I want to see clear images of the odd one out image at all screen sizes
+6.	As a user of the website, I want to see clear text of the odd one out options at all screen sizes
 7.	As a user of the website, I want to see the correct answer if I get the question wrong
 8.	As a user of the website, I want to see my current score
 9.	As a user of the website, I want to be able to contact the developer of the game to leave feedback
@@ -133,13 +132,10 @@ The Google Display Font [Righteous](https://fonts.google.com/specimen/](https://
 The Game Website was designed with user friendliness in mind, it should be easy to use once the user has read the rules. Every screen should be easy to read
 and navigate.
 #### Site Screens/Pages:
-- A Home Page with links to start the game and to browse the rules and a Text input to enter a chose username.
-- A screen where the user picks the difficulty level they want to play at.
-- A Main Game screen where the user has to figure out a multiple choice question from a series of four photos
-- A Correct message screen where the user has the option to answer a bonus question
-- A Bonus Question Screen which offers the user a multiple choice question picked via checkboxes
-- A Incorrect screen which offers the user the choice to move to the next question
-- A Incorrect Bonus Question screen which offers the user the choice to move to the next question
+- A Home Page with links to start the game and to browse the rules and a Text input to enter a chosen username.
+- A Main Game screen where the user has to figure out a multiple choice question from a series of four text choices
+- A Main Game screen where the user receives a correct message on getting the question right
+- A Main Game screen where the user receives a incorrect message on getting the question wrong
 - A Final Score screen that displays the Users final score and offers the choice to play again
 - A Contaact Form Screen that allows the User to contact the developer of the game
 - A 404 Screen that offers a link to bring the user back to the Home Page/Start Screen
