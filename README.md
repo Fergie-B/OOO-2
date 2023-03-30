@@ -357,48 +357,39 @@ The Game website was tested in Google Lighthouse to see how it performs.
 
 ### Device and Browser Testing
 Odd One Out Game Website was tested on the devices and browsers listed:
-- 
--
-- 
-- 
+
+- Microsoft Surface Pro - Firefox
+- IPad Mini - Safari, Google Chrome
+- Samsung Galaxy A53 - Google Chrome
+- Windows Desktop - Firefox, Chrome, Edge
+
     
 ##### Back to [top](#table-of-contents)    
 
 ### Testing User Stories
 
-1. As a first-time user of the website, ......
+1. As a user of the website, I want the rules of the game to be simple and explained easily
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Game Rules Screen | Click Game Rules Button on Main Screen | View Game Rules | View Game Rules  |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/">
 </details>
 
-2. As a first-time user of the website, ......
+2. As a user of the website, I want to be able to enter my name
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
-</details>
-
-3. As a first-time user of the website, ......
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
 | xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/">
 </details>
 
-4. As a first-time user of the website, ......
+3. As a user of the website, I want to presented with General Knowledge questions to test that skill
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -408,7 +399,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-5. As a first-time user of the website, ......
+4. As a user of the website, I want the game to be clickable on desktop and touchscreen on tablet and mobile devices
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -418,7 +409,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-6. As a first-time user of the website, ......
+5. As a user of the website, I want to see clear text of the odd one out options at all screen sizes
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -428,7 +419,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-7. As a returning user of the website, I want to be ........
+6. As a user of the website, I want to see the correct answer if I get the question wrong
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -438,7 +429,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-8. As a returning user of the website, I want to be ........
+7. As a user of the website, I want to see my current score
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -448,7 +439,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-9. As a returning user of the website, I want to be ........
+8. As a user of the website, I want to be able to contact the developer of the game to leave feedback
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -458,7 +449,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-10. As a returning user of the website, I want to be ........
+9. As a user of the website, I want to know my message has been sent to the developer
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -468,7 +459,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-11. As the site owner of the website, I want to be able to .....
+10. I want the users to enjoy the game experience by it being easy to understand and engage with
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -478,7 +469,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-12. As the site owner of the website, I want to be able to .....
+11. I want the game to be challenging to the user
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -488,7 +479,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-13. As the site owner of the website, I want to be able to .....
+12. I want the game to be fully reponsive and work across all devices
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -498,7 +489,17 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 <img src="docs/user-story-testing/">
 </details>
 
-14. As the site owner of the website, I want to be able to .....
+13. If the user encounters and error on the site I want a 404 page to be available to bring them back to the home page
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/">
+</details>
+
+14. I want to be able to receive feedback so the game can be improved
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
