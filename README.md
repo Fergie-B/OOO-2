@@ -128,7 +128,7 @@ The Google Display Font [Righteous](https://fonts.google.com/specimen/](https://
 
 
 ### Logo
-The One-colour website logo was designed in Adobe Illustrator using the Teko Font and was outputed as an SVG to keep the image lightweight to speed up loading times.
+The One-colour website logo was designed in Adobe Illustrator using the Righteous Font and was outputed as an SVG to keep the image lightweight to speed up loading times.
 
 <details><summary>Logo</summary>
 <img src="docs/features/odd-one-out-logo.png">
@@ -287,48 +287,36 @@ deem to be the Odd One Out of the group of four options as per the question pose
 ## Validation
 
 ### HTML Validation
-The [W3C Markup Validation Service](https://validator.w3.org/) .......
-<details><summary></summary>
-<img src="docs/validation/">
+The [W3C Markup Validation Service](https://validator.w3.org/) was used and the code is clear of errors
+<details><summary>Index Screen</summary>
+<img src="docs/validation/validation-html-index.png">
 </details>
-<details><summary></summary>
-<img src="docs/validation/">
+<details><summary>Contact Screen</summary>
+<img src="docs/validation/validation-html-contact.png">
 </details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary>/summary>
-<img src="docs/validation/">
+<details><summary>404 Screen</summary>
+<img src="docs/validation/validation-html-404.png">
 </details>
 
 ### CSS Validation
-The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) ......
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the sites css. No errors are found in the site CSS and the site validates as CSS Level 3 + SVG There are Ten warnings due to external stylesheets from the Bootstrap Integration and from some Vendor Extensions
 <details><summary>Style CSS Success Result</summary>
-<img src="docs/validation/">
+<img src="docs/validation/validation-css-result.png">
 </details>
 <details><summary>Full Page Breakdown</summary>
-<img src="docs/validation/">
+<img src="docs/validation/validation-css-fullpage.png">
 </details>
   
  ### JavaScript Validation
- [JSHint](https://jshint.com/)
-<details><summary>.js</summary>
-<img src="docs/validation/">
+ [JSHint](https://jshint.com/) was used to validate the javascript code and no significant issues were found
+<details><summary>game.js</summary>
+<img src="docs/validation/validation-js-game.png">
 </details>
-<details><summary>.js</summary>
-<img src="docs/validation/">
+<details><summary>game-data.js</summary>
+<img src="docs/validation/validation-js-game-data.png">
 </details>
-<details><summary>.js</summary>
-<img src="docs/validation/">
+<details><summary>contact-form.js</summary>
+<img src="docs/validation/validation-js-contact.png ">
 </details>
 
 ### Accessibility
