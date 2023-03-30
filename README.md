@@ -161,67 +161,75 @@ and navigate.
 - JS
 
 ### Frameworks & Tools
-- [Git](https://git-scm.com/)
-- [Github](https://github.com/)
-- [Gitpod](https://gitpod.io/workspaces)
-- Adobe Photoshop
-- Adobe Illustrator
-- [Balsamiq](https://balsamiq.com/)
-- [Coolors.co](https://coolors.co/)
-- [Google Fonts](https://fonts.google.com/)
-- [Favicon.io](https://favicon.io/)
-- [Font Awesome](https://fontawesome.com/)
+- [Git](https://git-scm.com/) was used for version control in GitPod
+- [Github](https://github.com/) was used as the repository for the project
+- [Gitpod](https://gitpod.io/workspaces) was utilised as the Cloud Development Environment
+- Adobe Photoshop was used to process images used on the site
+- Adobe Illustrator wasused in the design of the Logo and Favicon
+- [Balsamiq](https://balsamiq.com/) was used to mock up the game screens
+- [Coolors.co](https://coolors.co/) was used to generate a site colour scheme
+- [Colorsafe.co](http://colorsafe.co/) was used to determine that Accessible text colors were generated within WCAG Guidelines
+- [Google Fonts](https://fonts.google.com/) was used to pick the sites fonts
+- [Favicon.io](https://favicon.io/)to generate the site favicon
+- [Font Awesome](https://fontawesome.com/) was used for the Footer Icons
 
 
 ## Features
 The Main features of the odd One Out website span across ......
 
-###  Section
--
-- 
-- 
-- 
-- 
-- User Stories covered: xx
+###  Home Screen
+#### Username Input Field
+- The user is asked to enter their chosen username into the input field prior to starting the game. They can enter any
+character type and the max number of characters they can enter is 16 and the minimum is 1 character. The field must be 
+completed to start the game and a feedback message is received if they do not do so. 
+- The username remains visible throughout the gameplay.
+- A Games Rules button that leads the user to the game directions and rules
+- User Stories covered: 2
 
-![](docs/features/)
+![Home Screen](docs/features/features-home.png)
 
-### Section
--
-- User Stories covered: xx
+### Game Rules Screen
+- The Games rules screen informs the user of the games simple objectives and encourages them to play the game
+- There is a close button to return to the Main Screen
+- User Stories covered: 1, 11
 
-![](docs/features/)
+![Game Rules Screen](docs/features/features-rules.png)
 
-### Section
--
-- User Stories covered: x
+### Game Start Screen
+- The User is brought to the first randomised question and asked to click on the square that contains the answer that they 
+deem to be the Odd One Out of the group of four options as per the question posed to them
+- The Username and current score is visible above the gameplay area
+- User Stories covered: 3, 5, 6, 7, 12
 
-![](docs/features/)
+![Game Start Screen](docs/features/features-gamescreen.png)
 
-### Section
--
-- User Stories covered: xxx
+### Correct Message
+- If the User answers the question correctly they receive a message informing them they have answered correctly
+- The answer reason is displayed stating why the correct answer is deemed the odd one out
+- The user score increments by 10 when they answer a question correctly
+- User Stories covered: 3, 7
 
-![](docs/features/)
+![Correct Message Screen](docs/features/features-correct.png)
 
-### Section
-- 
+### Incorrect Message
+- If the User answers the question incorrectly they receive a message informing them they have answered incorrectly
+- The answer reason is displayed stating why the correct answer is deemed the odd one out
 
-![](docs/features/)
+![Incorrect Message Screen](docs/features/features-incorrect.png)
 
-### Section
-- 
-- 
-- 
-- User Stories covered: xxxx
+### Final Score Screen
+- The players final score is displayed with a congratulations message
+- A play again button is displayed that bring s the user back to the Home Screen
+- User Stories covered: 7
 
-![](docs/features/)
+![Final Score Screen](docs/features/features-finalscore.png)
 
-###  Section
-- 
-- - User Stories covered: xxxx
+###  Footer
+- The Footer is visible and accessible on all screens
+- Contains links to the site contact form, the game developers github and their social media profile - these open in new windows
+- - User Stories covered: 8, 15
 
-![](docs/features/)
+![Footer](docs/features/features-finalscore.png)
 
 ### Section
 - 
