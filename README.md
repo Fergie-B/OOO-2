@@ -186,22 +186,28 @@ completed to start the game and a feedback message is received if they do not do
 - A Games Rules button that leads the user to the game directions and rules
 - User Stories covered: 2
 
-![Home Screen](docs/features/features-home.png)
+<details><summary>See feature</summary>
+<img src="docs/features/features-home.png">
+</details>
 
 ### Game Rules Screen
 - The Games rules screen informs the user of the games simple objectives and encourages them to play the game
 - There is a close button to return to the Main Screen
 - User Stories covered: 1, 11
 
-![Game Rules Screen](docs/features/features-rules.png)
-
+<details><summary>See feature</summary>
+<img src="docs/features/features-rules.png">
+</details>
+    
 ### Game Start Screen
 - The User is brought to the first randomised question and asked to click on the square that contains the answer that they 
 deem to be the Odd One Out of the group of four options as per the question posed to them
 - The Username and current score is visible above the gameplay area
 - User Stories covered: 3, 5, 6, 7, 12
 
-![Game Start Screen](docs/features/features-gamescreen.png)
+<details><summary>See feature</summary>
+<img src="docs/features/features-gamescreen.png">
+</details>
 
 ### Correct Message
 - If the User answers the question correctly they receive a message informing them they have answered correctly
@@ -209,65 +215,61 @@ deem to be the Odd One Out of the group of four options as per the question pose
 - The user score increments by 10 when they answer a question correctly
 - User Stories covered: 3, 7
 
-![Correct Message Screen](docs/features/features-correct.png)
-
+<details><summary>See feature</summary>
+<img src="docs/features/features-correct.png">
+</details>
+    
 ### Incorrect Message
 - If the User answers the question incorrectly they receive a message informing them they have answered incorrectly
 - The answer reason is displayed stating why the correct answer is deemed the odd one out
 
-![Incorrect Message Screen](docs/features/features-incorrect.png)
+<details><summary>See feature</summary>
+<img src="docs/features/features-incorrect.png">
+</details>
 
 ### Final Score Screen
 - The players final score is displayed with a congratulations message
 - A play again button is displayed that bring s the user back to the Home Screen
 - User Stories covered: 7
 
-![Final Score Screen](docs/features/features-finalscore.png)
-
+<details><summary>See feature</summary>
+<img src="docs/features/features-finalscore.png">
+</details>
+    
 ###  Footer
 - The Footer is visible and accessible on all screens
 - Contains links to the site contact form, the game developers github and their social media profile - these open in new windows
 - User Stories covered: 8, 15
 
-![Footer](docs/features/features-finalscore.png)
-
+<details><summary>See feature</summary>
+<img src="docs/features/features-finalscore.png">
+</details>
+    
 ### Contact Form
 - The user can send the developer feedback on the game
 - Email JS has been utilised in the form to allow the developer to recieve messages from users
 - User Stories Covered: 8, 15
-
-![Contact Form](docs/features/features-contact.png)
+- 
+<details><summary>See feature</summary>
+<img src="docs/features/features-contact.png">
+</details>
 
 ###  Message Confirmation Screen
 - A Success message is displayed informing the user that their message has been submitted and thanking them
 - A Button is displayed that brings them back to the Home Screen
 - User stories covered: 9
-
-![Message Success](docs/features/features-message.png)
+- 
+<details><summary>See feature</summary>
+<img src="docs/features/features-message.png">
+</details>
 
 ### 404 Section
 - 
-- User stories covered: xxxx
+- User stories covered: 14
 
-![](docs/features/)
-
-### Section
-- 
-- User stories covered: xxxx
-
-![](docs/features/)
-
-### 404 Section
-- 
-- User stories covered: xxxx
-
-![](docs/features/)
-
-### Footer
-- 
-- User Stories covered: xxxx
-
-![](docs/features/)
+<details><summary>See feature</summary>
+<img src="docs/features/features-404.png">
+</details>
 
 ## Validation
 
