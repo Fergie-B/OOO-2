@@ -34,10 +34,11 @@
                 <div id="user-login" class="user-info col-md-12">
                     <h1>Welcome Player!</h1>
                         <br>
-                        <label for="username">Please enter your name!</label>
-                        <br>
-                        <input type="text" id="player" class="game-input" name="player" maxlength="16">
-                
+                        <form id ="user-form" class="login-form">
+                            <label for="username">Please enter your name!</label>
+                            <br>
+                            <input type="text" id="player" class="game-input" name="player" maxlength="16">
+                        </form>
 
                     <button class="btn btn-primary" id="game-rules-btn" onclick="viewGameRules">Game Rules</button>
 
@@ -99,9 +100,9 @@
             <footer id="footer" class="flex-center flex-column">
                 <p>Developed by Barry Ferguson 2023</p>
                 <ul class="contact-list flex">
-                    <li><a href="contact.html"><i class="fa-solid fa-envelope"></i></a></li>
-                    <li><a href="https://github.com/Fergie-B"><i class="fa-brands fa-github"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/barryjferguson/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="contact.html" aria-label="Contact us"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li><a href="https://github.com/Fergie-B" aria-label="Check out the websites githup repository"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/barryjferguson/" aria-label="View my LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </footer>
     </div>
