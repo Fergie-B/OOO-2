@@ -375,138 +375,146 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 | Game Rules Screen | Click Game Rules Button on Main Screen | View Game Rules | View Game Rules  |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-1.png">
 </details>
 
 2. As a user of the website, I want to be able to enter my name
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Username Input Field | Input username in username field | Field takes username and displays it | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-2.png">
 </details>
 
 3. As a user of the website, I want to presented with General Knowledge questions to test that skill
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Game Start Screen | View game questions | Game questions are visible| Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-3.png">
 </details>
 
 4. As a user of the website, I want the game to be clickable on desktop and touchscreen on tablet and mobile devices
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| CLickable Areas and buttons | User clicks buttons and questions | Clickable on tablet and mobile devices | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-4.png">
 </details>
 
 5. As a user of the website, I want to see clear text of the odd one out options at all screen sizes
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Game Start Screen | View Text | Text is crisp and visible | Works as expected|
+| Correct Message | View Text | Text is crisp and visible | Works as expected|
+| Incorrect Message | View Text | Text is crisp and visible | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-5.png">
 </details>
 
 6. As a user of the website, I want to see the correct answer if I get the question wrong
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Incorrect Message | View the answer reason | Answer reason is visible | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-6.png">
 </details>
 
 7. As a user of the website, I want to see my current score
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Game Start Screen | View Current Score | Current Score is displayed | Works as expected |
+| Correct Message | View incremented Score | Current Score is displayed and incremented | Works as expected |
+| Incorrect Message | View Current Score | Current Score is displayed  | Works as expected |
+| Final Score Screen | View Final Score | Final Score is displayed | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-7.png">
 </details>
 
 8. As a user of the website, I want to be able to contact the developer of the game to leave feedback
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Footer Links| Click links to access contact form or social media links | Links bring user to contact form | Works as expected |
+| Contact Form| Click the envelope icon in the footer links | Contact form is displayed | Works as expected |
+
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-8.png">
 </details>
 
 9. As a user of the website, I want to know my message has been sent to the developer
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Contact Form confirmations screen | user completes the contact form and clicks submit button | Success confirmation message is displayed | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-9.png">
 </details>
 
 10. I want the users to enjoy the game experience by it being easy to understand and engage with
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Game Rules Screen | Click Game Rules Button on Main Screen | View Game Rules | View Game Rules  |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-10.png">
 </details>
 
 11. I want the game to be challenging to the user
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Game Start Screen | View Questions | Questions are visible| Works as expected|
+| Correct Message | View Questions  | Questions are visible | Works as expected|
+| Incorrect Message | View Questions  | Questions are visible | Works as expected|
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-11.png">
 </details>
 
 12. I want the game to be fully reponsive and work across all devices
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Responsive page design| Change the device screen size | Site works on various screen sizes | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-12.png">
 </details>
 
 13. If the user encounters and error on the site I want a 404 page to be available to bring them back to the home page
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Error 404 Page | Page not found | User enters a wrong url 404 page is displayed with a back to home button | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-13.png">
 </details>
 
 14. I want to be able to receive feedback so the game can be improved
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| xxxxxxxxxxe | xxxxxxxxxx | xxxxxxxxxx | xxxxxxxxxx |
+| Contact Form | The user completes the contact form and submits| The developer recieves the users email and details | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/">
+<img src="docs/user-story-testing/user-story-14.png">
 </details>
 
  ##### Back to [top](#table-of-contents)   
