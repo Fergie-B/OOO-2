@@ -275,7 +275,8 @@ deem to be the Odd One Out of the group of four options as per the question pose
 </details>
 
 ### 404 Section
-- 
+- A 404 error message is displayed informing the user that they have made an error in entering a url
+- A back button is provide to bring the user back to the home page
 - User stories covered: 14
 
 <details><summary>See feature</summary>
@@ -333,26 +334,14 @@ The site pages where checked using the [Web AIM Wave Web Accessibility Evaluatio
 
 ### Performance Testing
 The Game website was tested in Google Lighthouse to see how it performs.
-<details><summary></summary>
-<img src="docs/validation/">
+<details><summary>Index.html</summary>
+<img src="docs/validation/lighthouse-performance-index.png">
 </details>
-<details><summary></summary>
-<img src="docs/validation/">
+<details><summary>Contact</summary>
+<img src="docs/validation/lighthouse-performance-contact.png">
 </details>
-<details><summary></summary>
-<img src="docs/validation/">
-</details>
-<details><summary>page</summary>
-<img src="docs/validation/">
-</details>
-<details><summary>page</summary>
-<img src="docs/validation/">
-</details>
-<details><summary>page</summary>
-<img src="docs/validation/">
-</details>
-<details><summary>page</summary>
-<img src="docs/validation/">
+<details><summary>404</summary>
+<img src="docs/validation/lighthouse-performance-404.png">
 </details>
 
 ### Device and Browser Testing
@@ -402,7 +391,7 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-| CLickable Areas and buttons | User clicks buttons and questions | Clickable on tablet and mobile devices | Works as expected |
+| Clickable Areas and buttons | User clicks buttons and questions | Clickable on tablet and mobile devices | Works as expected |
 
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/user-story-4.png">
@@ -523,10 +512,9 @@ Odd One Out Game Website was tested on the devices and browsers listed:
 
 | **Bug** | **Fix** |
 | ----------- | ----------- |
-| xxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxx | xxxxxxxxxx |
-| xxxxxxxxxx | xxxxxxxxxx |
+| The contact form was validating but no data was being sent to the end email inbox | The correct email template was implemented and the code was added to the contact form javascript |
+| THe Hover function on mobile was sticking in responsive view in Chrome dev tools | This issue was examined and code was added but still needs to be rectified going forward |
+| W3C HTML validation advised that labels were need for the User login  | The form structure was improved |
 
 ## Deployment
 
@@ -534,7 +522,7 @@ I deployed the website on Github pages as per the following instructions:
 1. In your Github Repository click on the Settings link in the tob sub navbar
 2. In the left sidebar click on the Pages link
 3. Select your branch as 'Main' and 'Root'
-4. The Webpage will generate and you will receive a message stating "Your site is published at"
+4. The Webpage was generated and a message was received stating "Your site is published at [Live Webpage](https://fergie-b.github.io/OOO-2/)"
 
 To fork a repository, follow these steps:
 1. Navigate to the chosen repository
@@ -556,20 +544,17 @@ To Clone a directory
 ### Media
 In order of Appearance:
 Images used on the site are not the property of the developer unless stated*
-- [](assets/images/)
-- [](assets/images/)
-- [](assets/images/)
-- [](assets/images/)
-- [](assets/images/)
-- [](assets/images/)
+- The Logo and Favicon used on the site was designed by the developer
+- The Footer Link icons are from [Font Awesome](https://fontawesome.com/)
 
 ### Code
--
-- 
-- 
+- Some code was utilised from Build a Quiz App youtube tutorial from https://www.youtube.com/watch?v=u98ROZjBWy8&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx
+- The site contact form utilises code from [Bootstrap](https://getbootstrap.com/docs/5.0/forms/overview/#overview))
+- How to prevent sticky hover effects for buttons on touch devices ? on Geeks for Geeks was viewed for the attempt to rectify the sticky hover Issue [Geeks for Geeks](https://www.geeksforgeeks.org/how-to-prevent-sticky-hover-effects-for-buttons-on-touch-devices/)
+- Code from the Email JS tutorial on adding an email service was utilised in the Contact Form JS file [EmailJs.com](https://www.emailjs.com/docs/tutorial/overview/)
 - The 404 Page was built using instructions from [Github](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
 ## Acknowledgements
-
+- Thaks to my Mentor Naoise Gaffney for his advice on this project.
     
 ##### Back to [top](#table-of-contents)
